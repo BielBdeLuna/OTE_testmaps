@@ -1,5 +1,5 @@
-# OTE_testmaps
-Open Tech Engine testmaps
+# Open Tech Engine testmaps
+https://github.com/BielBdeLuna/OTE_testmaps
 
 the maps are under the terms of the Creative Commons Attribution-ShareAlike 4.0 International ( CC BY-SA-4.0 ) licence, terms stated in the LICENSE.txt file.
 
