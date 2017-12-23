@@ -1,0 +1,128 @@
+namespace outskirts {
+    vector      mausoleum_button_origin;
+    vector      mausoleum_translator_origin;
+    float       t_mausoleum_button;
+    float       t_mausoleum_translator;
+    float       t_mausoleum_rotator;
+    boolean     mausoleum_button_pressed;
+
+void open_chappel_door() {
+    //open double door
+    //$chappel_door_right.rotateOnce( '0 -90 0' );
+    $chappel_door_right.rotateDownTo( 1, -90 );
+    //$chappel_door_left.rotateOnce( '0 90 0' );
+    $chappel_door_left.rotateUpTo( 1, 90 );
+}
+
+void push_chappel_button() {
+    vector chappel_button_pos = $chappel_button.getOrigin();
+    chappel_button_pos_x += 8;
+
+    //push button
+    $chappel_button.moveToPos( chappel_button_pos );
+    sys.wait( 1 );
+    //open secret door
+    //$chappel_secret_door.rotateOnce( '0 -90 0' );
+    $chappel_secret_door.rotateDownTo( 1, -90 );
+}
+
+void push_mausoleum_hidden_button() {
+    vector mausoleum_hidden_button_pos = $mausoleum_hidden_button.getOrigin();
+    mausoleum_hidden_button_pos_z -= 4;
+
+    $mausoleum_hidden_button.moveToPos( mausoleum_hidden_button_pos );
+    
+    sys.wait( 1 );
+
+    $mausoleum_right_door.rotateDownTo( 1, -90 );
+    $mausoleum_left_door.rotateUpTo( 1, 90 );
+}
+
+float manage_mausoleum_button() {
+    vector mausoleum_button_pos = mausoleum_button_origin;
+    mausoleum_button_pos_x += 1;
+    mausoleum_button_pos_y += 4;
+
+    $mausoleum_button.accelTime( 0 );
+    $mausoleum_button.moveToPos( mausoleum_button_pos );
+    sys.wait( 14.9 );
+    $mausoleum_button.accelTime( 0.23 );
+    $mausoleum_button.moveToPos( mausoleum_button_origin );
+    sys.wait( 0.1 );
+    mausoleum_button_pressed = false;
+
+    //thread self killing method
+    float t_num = t_mausoleum_button;
+    t_mausoleum_button = 0;
+    sys.terminate( t_num );
+}
+
+float manage_mausoleum_translator() {
+    vector mausoleum_translator_pos = mausoleum_translator_origin;
+    mausoleum_translator_pos_x -= 4;
+    mausoleum_translator_pos_y -= 16;
+
+    sys.wait( 1.75 );
+    $mausoleum_translator.moveToPos( mausoleum_translator_pos );
+    sys.wait( 9.35 );
+    $mausoleum_translator.moveToPos( mausoleum_translator_origin );
+
+    //thread self killing method
+    float t_num = t_mausoleum_translator;
+    t_mausoleum_translator = 0;
+    sys.terminate( t_num );
+}
+
+float manage_mausoleum_rotator() {
+    sys.wait( 1 );
+
+    $mausoleum_tomb.time( 0.1 );
+    $mausoleum_tomb.accelTime( 0 );
+    $mausoleum_tomb.decelTime( 0 );
+    $mausoleum_tomb.rotateUpTo( 1, 2 );
+    sys.wait( 0.5 );
+    $mausoleum_tomb.time( 3.75 );
+    $mausoleum_tomb.accelTime( 2.6 );
+    $mausoleum_tomb.decelTime( 1 );
+    $mausoleum_tomb.rotateUpTo( 1, 40 );
+    sys.wait( 9.15 );
+    $mausoleum_tomb.rotateDownTo( 1, 0 );
+
+    //thread self killing method
+    float t_num = t_mausoleum_rotator;
+    t_mausoleum_rotator = 0;
+    sys.terminate( t_num );
+}
+
+void mausoleum_push_button() {
+    if( !mausoleum_button_pressed ) {
+        if( t_mausoleum_button == 0 ) {
+            mausoleum_button_pressed = true;
+            t_mausoleum_button = thread manage_mausoleum_button();
+        }
+        if( t_mausoleum_translator == 0 ) {
+            t_mausoleum_translator = thread manage_mausoleum_translator();
+        }
+        if( t_mausoleum_rotator == 0 ) {
+            t_mausoleum_rotator = thread manage_mausoleum_rotator();
+        }
+    }
+}
+
+void setup_level() {
+    //sys.print("setup complete\n");
+    mausoleum_button_origin = $mausoleum_button.getOrigin();
+    mausoleum_translator_origin = $mausoleum_translator.getOrigin();
+    mausoleum_button_pressed = false;
+    $mausoleum_right_door.time( 2 );
+    $mausoleum_left_door.time( 2.1 );
+    $mausoleum_translator.time( 3.75 );
+    $mausoleum_translator.accelTime( 3.70 );
+    $mausoleum_button.time( 0.25 );
+    $chappel_button.time( 0.25 );
+    $chappel_secret_door.time( 2 );
+    $chappel_door_right.time( 2.1 );
+    $chappel_door_left.time( 2 );
+}
+
+}//namespace outskirts

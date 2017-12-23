@@ -1,0 +1,1 @@
+Sorcerer of Shadows it's a recreation of Hexen2 first map, with the intention of having a large map, with very long views, so a very unoptimized map for the current engine, so we can use it as a base ground for LODs and instanced geometry, both currently missing from both the engine and the map. currently is jsut a part of the map and in a sekeleton, dev-texture ridden fashion.

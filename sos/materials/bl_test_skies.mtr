@@ -1,0 +1,14 @@
+textures/bl/skies/greatest_sky_evaaar
+{
+	qer_editorimage qer/common/sky.tga
+
+	noFragment
+	noshadows
+	noimpact
+	forceOpaque		
+	{
+		blend			add	
+		cameraCubeMap	env/skies/ouch/ouch
+		texgen			skybox
+	}
+}
