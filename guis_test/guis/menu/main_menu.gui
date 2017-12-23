@@ -1,0 +1,158 @@
+windowDef Desktop {
+    rect        0, 0, 640, 480
+    backcolor   1.0, 1.0, 0.5, 0.25
+    visible     1
+
+    windowDef safe_area {
+        rect        10, 10, 620, 460
+        backcolor   1.0, 1.0, 0.5, 0.25
+        visible     1
+
+        windowDef mainmenu_title {
+            rect        232.5, 10, 155, 40
+            visible     1
+            backcolor   1.0, 1.0, 0.5, 1.0
+            forecolor   1, 1, 1, 1
+            text        "Main Menu"
+            textalign   1
+            textscale   3
+            font        "fonts/english"
+        }
+
+        windowDef binder {
+            rect        10, 60, 600, 390
+            backcolor   0.0, 0.0, 0.0, 0.0
+            visible     1
+            
+            windowDef area_1 {
+                rect        0, 0, 300, 390
+                visible     1
+                backcolor   0.0, 0.0, 0.0, 0.0
+                
+                windowDef a1_window {
+                    rect        10, 60, 275, 320
+                    visible     1
+                    backcolor   1.0, 1.0, 0.5, 0.0
+                    forecolor   1, 1, 1, 1
+                    text        "Hello world."
+                    textscale   3
+                    font        "newfonts/Arial_Narrow"
+                }
+
+                windowDef a1_background_0 {
+                    rect        120, 0, 175, 50
+                    visible     1
+                    backcolor   0.5, 1.0, 0.5, 1.0
+                    //matcolor    1.0, 0.25, 0.25, 1.0
+                    forecolor   1, 1, 1, 1
+                }
+
+                windowDef a1_background_1 {
+                    rect        10, 50, 285, 80
+                    visible     1
+                    backcolor   0.5, 1.0, 0.5, 1.0
+                    //matcolor    1.0, 0.25, 0.25, 1.0
+                    forecolor   1, 1, 1, 1
+                }
+
+                windowDef a1_background_2 {
+                    rect        10, 130, 160, 100
+                    visible     1
+                    backcolor   0.5, 1.0, 0.5, 1.0
+                    //matcolor    1.0, 0.25, 0.25, 1.0
+                    forecolor   1, 1, 1, 1
+                }
+
+                windowDef a1_background_3 {
+                    rect        10, 230, 285, 150
+                    visible     1
+                    backcolor   0.5, 1.0, 0.5, 1.0
+                    //matcolor    1.0, 0.25, 0.25, 1.0
+                    forecolor   1, 1, 1, 1
+                }
+                
+            } // area_1
+
+            windowDef area_2 {
+                rect        300, 0, 300, 390
+                visible     1
+                backcolor   0.0, 0.0, 0.0, 0.0
+                
+                windowDef a2_background_1 {
+                    rect        5, 0, 285, 130
+                    visible     1
+                    backcolor   0.5, 1.0, 0.5, 1.0
+                    //matcolor    1.0, 0.25, 0.25, 1.0
+                    forecolor   1, 1, 1, 1
+                }
+
+                windowDef a2_background_2 {
+                    rect        130, 130, 160, 100
+                    visible     1
+                    backcolor   0.5, 1.0, 0.5, 1.0
+                    //matcolor    1.0, 0.25, 0.25, 1.0
+                    forecolor   1, 1, 1, 1
+                }
+
+                windowDef a2_background_3 {
+                    rect        5, 230, 285, 150
+                    visible     1
+                    backcolor   0.5, 1.0, 0.5, 1.0
+                    //matcolor    1.0, 0.25, 0.25, 1.0
+                    forecolor   1, 1, 1, 1
+                }
+                
+            } // area_2
+
+            windowDef button_menu {
+                rect        10, 0, 100, 40
+                visible     1
+                backcolor   1.0, 0.0, 0.0, 1.0
+                forecolor   1, 1, 1, 1
+                text        "MENU"
+                textalign   1
+                textscale   3
+                font        "fonts/english"
+                float       "clicked" 0
+                onAction {
+                    if ( "button_menu::clicked" == 0 ) {
+                        // moves binder down
+                        transition "binder::rect" "10, 60, 600, 390" "10, 410, 600, 390" "300" ;
+                        set "button_menu::clicked" "1";
+                    } else {
+                        // moves binder up again
+                        transition "binder::rect" "10, 410, 600, 390" "10, 60, 600, 390" "300" ;
+                        set "button_menu::clicked" "0";
+                    }
+
+                }
+            }
+            
+            windowDef button_area {
+                rect        180,140,240,80
+                backcolor   1.0, 1.0, 0.5, 1.0
+                visible     1
+                //background  "assets/close"
+                //matcolor    1.0, 0.25, 0.25, 1.0
+                forecolor   1.0, 1.0, 1.0, 1.0
+                text        "Toggle button"
+                textalign   1
+                textscale   3
+                font        "fonts/english"
+                float       "alreadyClicked" 0
+                onAction {
+                    if ( "button_area::alreadyClicked" == 0 ) {
+                        // Makes the area_2 invisible
+                        set "area_2::visible" "0";
+                        set "button_area::alreadyClicked" "1";
+                    } else {
+                        // Makes the area_2 visible again
+                        set "area_2::visible" "1";
+                        set "button_area::alreadyClicked" "0";
+                    }
+
+                }
+            }
+        } // binder
+    } //safe area
+} // Desktop

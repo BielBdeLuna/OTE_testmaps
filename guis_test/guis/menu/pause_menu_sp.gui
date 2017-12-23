@@ -1,0 +1,31 @@
+windowDef Desktop {
+	rect	0 ,0 ,640 ,480
+	matcolor	1 , 0.3 ,0.6 ,1
+	background	""
+	visible	1
+
+    float doomme	1    
+
+    //menugui		1
+    /*
+    onESC {
+		if ("desktop::doomme" == 0) { 
+			showcursor "1" ;
+			set "idlogo::rect" "0 0 0 0" ;			
+			resetTime "SoundrunMenu" "0" ;					
+			set "desktop::doomme" "1" ;
+			set "cmd" "play """ ;
+		}
+		set "cmd" "close" ;
+	}
+    */
+
+    windowDef ResetControlsBtnText {
+	    rect 10, 10, 620, 460
+        text    "this pause menu sucks monkey balls!"
+	    textscale	1
+        textalign	1
+	    textaligny	-3
+	    forecolor	0.6, 1, 1, 1
+    }    
+}
