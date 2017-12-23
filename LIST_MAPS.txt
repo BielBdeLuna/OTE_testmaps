@@ -1,1 +1,2 @@
-'sos' branch - Sorcerer of Shadows - LODs and Instancing testmap
+the 'sos' branch - Sorcerer of Shadows - LODs and Instancing testmap
+the 'guis_test' branch - full-screen guis test
