@@ -2,16 +2,13 @@ namespace outskirts {
     vector      mausoleum_button_origin;
     vector      mausoleum_translator_origin;
     float       t_mausoleum_button;
-    float       t_mausoleum_translator;
-    float       t_mausoleum_rotator;
+    float       t_mausoleum_tomb;
     boolean     mausoleum_button_pressed;
 
 void open_chappel_door() {
     //open double door
-    //$chappel_door_right.rotateOnce( '0 -90 0' );
-    $chappel_door_right.rotateDownTo( 1, -90 );
-    //$chappel_door_left.rotateOnce( '0 90 0' );
-    $chappel_door_left.rotateUpTo( 1, 90 );
+    $chappel_door_right.rotateOnce( '0 -90 0' );
+    $chappel_door_left.rotateOnce( '0 90 0' );
 }
 
 void push_chappel_button() {
@@ -21,9 +18,11 @@ void push_chappel_button() {
     //push button
     $chappel_button.moveToPos( chappel_button_pos );
     sys.wait( 1 );
+    $chappel_secret_door.time( 0.1 );
+    $chappel_secret_door.rotateOnce( '0 -2 0' );
     //open secret door
-    //$chappel_secret_door.rotateOnce( '0 -90 0' );
-    $chappel_secret_door.rotateDownTo( 1, -90 );
+    $chappel_secret_door.time( 2.5 );
+    $chappel_secret_door.rotateOnce( '0 -88 0' );
 }
 
 void push_mausoleum_hidden_button() {
@@ -34,8 +33,8 @@ void push_mausoleum_hidden_button() {
     
     sys.wait( 1 );
 
-    $mausoleum_right_door.rotateDownTo( 1, -90 );
-    $mausoleum_left_door.rotateUpTo( 1, 90 );
+    $mausoleum_right_door.rotateOnce( '0 -90 0' );
+    $mausoleum_left_door.rotateOnce( '0 90 0' );
 }
 
 float manage_mausoleum_button() {
@@ -43,12 +42,15 @@ float manage_mausoleum_button() {
     mausoleum_button_pos_x += 1;
     mausoleum_button_pos_y += 4;
 
+    $mausoleum_button.time( 0.25 );
+
     $mausoleum_button.accelTime( 0 );
     $mausoleum_button.moveToPos( mausoleum_button_pos );
-    sys.wait( 14.9 );
+    sys.waitForThread( t_mausoleum_tomb );
+    sys.wait( 0.15 );
     $mausoleum_button.accelTime( 0.23 );
     $mausoleum_button.moveToPos( mausoleum_button_origin );
-    sys.wait( 0.1 );
+    sys.wait( 0.23 );
     mausoleum_button_pressed = false;
 
     //thread self killing method
@@ -57,72 +59,151 @@ float manage_mausoleum_button() {
     sys.terminate( t_num );
 }
 
-float manage_mausoleum_translator() {
-    vector mausoleum_translator_pos = mausoleum_translator_origin;
-    mausoleum_translator_pos_x -= 4;
-    mausoleum_translator_pos_y -= 16;
+float manage_mausoleum_tomb_FSM() {
+    #define STATUS_START        0
+    #define STATUS_UNLOCKING    1
+    #define STATUS_RECEDING     2
+    #define STATUS_OPENED       3
+    #define STATUS_ADVANCING    4
+    #define STATUS_LOCKING      5
+    #define STATUS_FINISHED     6
 
-    sys.wait( 1.75 );
-    $mausoleum_translator.moveToPos( mausoleum_translator_pos );
-    sys.wait( 9.35 );
-    $mausoleum_translator.moveToPos( mausoleum_translator_origin );
+    #define TIME_OPENED         4
+    #define RECEDING_STEPS      14
+    #define ANGLE_OPENED        45
+    #define DISTANCE_MOVED      32
 
-    //thread self killing method
-    float t_num = t_mausoleum_translator;
-    t_mausoleum_translator = 0;
-    sys.terminate( t_num );
-}
+    float status, init_time, times_receding, time_waiting, angle_increment, angle;
+    vector origin, position, distance;    
 
-float manage_mausoleum_rotator() {
-    sys.wait( 1 );
+    status = STATUS_START;
+    while( true ) {
+        if( status == STATUS_START ) {
+            origin = $mausoleum_translator.getOrigin();
+            times_receding = 0;
+            angle = 0;
+            time_waiting = 0.35;
+            distance = sys.vecNormalize( '-1 -16 0' ) * ( DISTANCE_MOVED / RECEDING_STEPS );
+            angle_increment = ANGLE_OPENED / RECEDING_STEPS;
+            sys.wait( 1.5 );
+            status = STATUS_UNLOCKING;
+            init_time = sys.getTime();
+        } else if( status == STATUS_UNLOCKING ) {
+            $mausoleum_tomb.time( 0.05 );
+            $mausoleum_tomb.accelTime( 0 );
+            angle += 3;
+            $mausoleum_tomb.rotateOnce( '0 1 0' * angle );         
+            sys.wait( 0.75 );
+            status = STATUS_RECEDING;
+        } else if( status == STATUS_RECEDING ) {
 
-    $mausoleum_tomb.time( 0.1 );
-    $mausoleum_tomb.accelTime( 0 );
-    $mausoleum_tomb.decelTime( 0 );
-    $mausoleum_tomb.rotateUpTo( 1, 2 );
-    sys.wait( 0.5 );
-    $mausoleum_tomb.time( 3.75 );
-    $mausoleum_tomb.accelTime( 2.6 );
-    $mausoleum_tomb.decelTime( 1 );
-    $mausoleum_tomb.rotateUpTo( 1, 40 );
-    sys.wait( 9.15 );
-    $mausoleum_tomb.rotateDownTo( 1, 0 );
+            //rotate first
+            $mausoleum_tomb.time( 0.1 );
+            $mausoleum_tomb.rotateOnce( '0 1 0' * angle_increment ); //we rotate only the increment
+            angle += angle_increment;
+            sys.wait( ( time_waiting * ( 1/3 )  ) );
 
-    //thread self killing method
-    float t_num = t_mausoleum_rotator;
-    t_mausoleum_rotator = 0;
-    sys.terminate( t_num );
+            //move afterwards
+            $mausoleum_translator.time( 0.1 );
+            position = $mausoleum_translator.getOrigin() + distance;
+            if( $mausoleum_translator.distanceToPoint( origin ) < DISTANCE_MOVED ) {
+                $mausoleum_translator.moveToPos( position );
+            }
+            
+            //wait an additional time so it looks like a mechanism is operating it
+            if ( time_waiting > 0.23 ) {
+                time_waiting -= 0.04;
+            } else {
+                time_waiting = 0.23;
+            }
+            sys.wait( ( time_waiting * ( 2/3 ) ) );
+
+            //check if we go to the next status or we keep adding steps            
+            if( times_receding == RECEDING_STEPS ) {
+                init_time = sys.getTime();
+                status = STATUS_OPENED;            
+            } else {
+                times_receding++;
+            }
+        } else if( status == STATUS_OPENED ) {
+            if( sys.getTime() > init_time + TIME_OPENED ) {
+                status = STATUS_ADVANCING;
+            }
+        } else if( status == STATUS_ADVANCING ) {
+            $mausoleum_translator.time( 0.25 );
+            $mausoleum_translator.accelTime( 0.2 );
+            $mausoleum_translator.moveToPos( origin );
+            sys.wait( 0.6 );
+            status = STATUS_LOCKING;
+        } else if( status == STATUS_LOCKING ) {
+            $mausoleum_tomb.time( 0.25 );
+            $mausoleum_tomb.accelTime( 0.2 );
+            $mausoleum_tomb.rotateOnce( '0 -1 0' * angle ); //rotate back to the original position
+            sys.wait( 0.25 );
+            status = STATUS_FINISHED;
+        } else if( status == STATUS_FINISHED ) {
+            //thread self killing method
+            float t_num = t_mausoleum_tomb;
+            t_mausoleum_tomb= 0;
+            sys.terminate( t_num );
+        }
+        sys.waitFrame();
+    }
 }
 
 void mausoleum_push_button() {
     if( !mausoleum_button_pressed ) {
-        if( t_mausoleum_button == 0 ) {
-            mausoleum_button_pressed = true;
+        mausoleum_button_pressed = true;
+        if( t_mausoleum_button == 0 ) {            
             t_mausoleum_button = thread manage_mausoleum_button();
         }
-        if( t_mausoleum_translator == 0 ) {
-            t_mausoleum_translator = thread manage_mausoleum_translator();
-        }
-        if( t_mausoleum_rotator == 0 ) {
-            t_mausoleum_rotator = thread manage_mausoleum_rotator();
+        if( t_mausoleum_tomb == 0 ) {
+            t_mausoleum_tomb = thread manage_mausoleum_tomb_FSM();
         }
     }
 }
 
+void open_cementery_door() {
+    $cementery_door.rotateOnce( '0 90 0' );
+}
+
+void open_study_door() {
+    $study_door.rotateOnce( '0 120 0' );
+}
+
+void study_presentation() {
+    sys.trigger( $study_right_light );
+    sys.wait( 0.2 );
+    sys.trigger( $study_left_light );
+    sys.wait( 0.3 );
+    sys.trigger( $study_center_light );
+    sys.wait( 0.3 );    
+    //anger the warlock
+    $warlock.remove();
+}
+
+void open_overwatch_door() {
+    $overwatch_door.rotateOnce( '0 80 0' );
+}
+
+void open_campanile() {
+    $campanile_door.rotateOnce( '0 90 0' );
+}
 void setup_level() {
     //sys.print("setup complete\n");
+    sys.trigger( $info_portalsky_global_1 );
     mausoleum_button_origin = $mausoleum_button.getOrigin();
     mausoleum_translator_origin = $mausoleum_translator.getOrigin();
     mausoleum_button_pressed = false;
     $mausoleum_right_door.time( 2 );
     $mausoleum_left_door.time( 2.1 );
-    $mausoleum_translator.time( 3.75 );
-    $mausoleum_translator.accelTime( 3.70 );
-    $mausoleum_button.time( 0.25 );
     $chappel_button.time( 0.25 );
-    $chappel_secret_door.time( 2 );
     $chappel_door_right.time( 2.1 );
     $chappel_door_left.time( 2 );
+    $cementery_door.time( 2 );
+    $study_door.time( 3 );
+    $overwatch_door.time( 2 );
+    $campanile_door.time( 2 );
 }
 
 }//namespace outskirts

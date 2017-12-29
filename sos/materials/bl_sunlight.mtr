@@ -1,0 +1,18 @@
+lights/sunlight_no_falloff
+{
+	lightFalloffImage _noFalloff
+	{
+		map	lights/white8.tga
+		colored
+	}
+}
+
+light/sky_plain_ambient
+{
+    ambientLight
+    lightFalloffImage _noFalloff
+	{
+		map lights/white8.tga
+		colored
+	}
+}
