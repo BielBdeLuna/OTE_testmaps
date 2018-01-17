@@ -2,6 +2,7 @@ windowDef Desktop {
     rect        0, 0, 640, 480
     backcolor   1.0, 1.0, 0.5, 0.25
     visible     1
+    menugui     1
 
     windowDef safe_area {
         rect        10, 10, 620, 460
@@ -12,11 +13,12 @@ windowDef Desktop {
             rect        232.5, 10, 155, 40
             visible     1
             backcolor   1.0, 1.0, 0.5, 1.0
-            forecolor   1, 1, 1, 1
+            forecolor   1.0, 1.0, 1.0, 1.0
             text        "Main Menu"
             textalign   1
-            textscale   3
-            font        "fonts/english"
+            //textscale   3
+            textscale	0.31
+            font	    "fonts/microgrammadbolext"
         }
 
         windowDef binder {
@@ -33,17 +35,17 @@ windowDef Desktop {
                     rect        10, 60, 275, 320
                     visible     1
                     backcolor   1.0, 1.0, 0.5, 0.0
-                    forecolor   1, 1, 1, 1
+                    forecolor   1.0, 1.0, 1.0, 1.0
                     text        "Hello world."
-                    textscale   3
-                    font        "newfonts/Arial_Narrow"
+                    //textscale   3
+                    textscale	0.31
+                    font	    "fonts/microgrammadbolext"
                 }
 
                 windowDef a1_background_0 {
                     rect        120, 0, 175, 50
                     visible     1
                     backcolor   0.5, 1.0, 0.5, 1.0
-                    //matcolor    1.0, 0.25, 0.25, 1.0
                     forecolor   1, 1, 1, 1
                 }
 
@@ -51,7 +53,6 @@ windowDef Desktop {
                     rect        10, 50, 285, 80
                     visible     1
                     backcolor   0.5, 1.0, 0.5, 1.0
-                    //matcolor    1.0, 0.25, 0.25, 1.0
                     forecolor   1, 1, 1, 1
                 }
 
@@ -59,7 +60,6 @@ windowDef Desktop {
                     rect        10, 130, 160, 100
                     visible     1
                     backcolor   0.5, 1.0, 0.5, 1.0
-                    //matcolor    1.0, 0.25, 0.25, 1.0
                     forecolor   1, 1, 1, 1
                 }
 
@@ -67,7 +67,6 @@ windowDef Desktop {
                     rect        10, 230, 285, 150
                     visible     1
                     backcolor   0.5, 1.0, 0.5, 1.0
-                    //matcolor    1.0, 0.25, 0.25, 1.0
                     forecolor   1, 1, 1, 1
                 }
                 
@@ -82,7 +81,6 @@ windowDef Desktop {
                     rect        5, 0, 285, 130
                     visible     1
                     backcolor   0.5, 1.0, 0.5, 1.0
-                    //matcolor    1.0, 0.25, 0.25, 1.0
                     forecolor   1, 1, 1, 1
                 }
 
@@ -90,7 +88,6 @@ windowDef Desktop {
                     rect        130, 130, 160, 100
                     visible     1
                     backcolor   0.5, 1.0, 0.5, 1.0
-                    //matcolor    1.0, 0.25, 0.25, 1.0
                     forecolor   1, 1, 1, 1
                 }
 
@@ -98,7 +95,6 @@ windowDef Desktop {
                     rect        5, 230, 285, 150
                     visible     1
                     backcolor   0.5, 1.0, 0.5, 1.0
-                    //matcolor    1.0, 0.25, 0.25, 1.0
                     forecolor   1, 1, 1, 1
                 }
                 
@@ -108,21 +104,26 @@ windowDef Desktop {
                 rect        10, 0, 100, 40
                 visible     1
                 backcolor   1.0, 0.0, 0.0, 1.0
-                forecolor   1, 1, 1, 1
-                text        "MENU"
+                forecolor   1.0, 1.0, 1.0, 1.0
+                text        "CLOSE\nMENU"
                 textalign   1
-                textscale   3
-                font        "fonts/english"
+                //textscale   3
+                textscale	0.31
+                font	    "fonts/microgrammadbolext"
                 float       "clicked" 0
                 onAction {
+                    set	"cmd" "play 'gui/touch_interaction'" ;
+
                     if ( "button_menu::clicked" == 0 ) {
                         // moves binder down
                         transition "binder::rect" "10, 60, 600, 390" "10, 410, 600, 390" "300" ;
-                        set "button_menu::clicked" "1";
+                        set "button_menu::clicked" "1" ;
+                        set "button_menu::text" "OPEN\nMENU" ;
                     } else {
                         // moves binder up again
                         transition "binder::rect" "10, 410, 600, 390" "10, 60, 600, 390" "300" ;
-                        set "button_menu::clicked" "0";
+                        set "button_menu::clicked" "0" ;
+                        set "button_menu::text" "CLOSE\nMENU" ;
                     }
 
                 }
@@ -132,23 +133,24 @@ windowDef Desktop {
                 rect        180,140,240,80
                 backcolor   1.0, 1.0, 0.5, 1.0
                 visible     1
-                //background  "assets/close"
-                //matcolor    1.0, 0.25, 0.25, 1.0
                 forecolor   1.0, 1.0, 1.0, 1.0
                 text        "Toggle button"
                 textalign   1
-                textscale   3
-                font        "fonts/english"
+                //textscale   3
+                textsmenuguicale	0.31
+                font	    "fonts/microgrammadbolext"
                 float       "alreadyClicked" 0
                 onAction {
+				    set	"cmd" "play 'gui/touch_interaction'" ;
+
                     if ( "button_area::alreadyClicked" == 0 ) {
                         // Makes the area_2 invisible
                         set "area_2::visible" "0";
-                        set "button_area::alreadyClicked" "1";
+                        set "button_area::alreadyClicked" "1" ;
                     } else {
                         // Makes the area_2 visible again
                         set "area_2::visible" "1";
-                        set "button_area::alreadyClicked" "0";
+                        set "button_area::alreadyClicked" "0" ;
                     }
 
                 }
