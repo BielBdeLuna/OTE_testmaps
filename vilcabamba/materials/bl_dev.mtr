@@ -2,7 +2,7 @@ textures/dev/16x16_gray
 {
     stone
 	//qer_editorimage textures/qer/dev/16gray.tga
-    diffusemap textures/dev/16gray.png
+    diffusemap textures/dev/16gray.tga
 }
 
 textures/dev/16x16_orange

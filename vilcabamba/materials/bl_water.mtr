@@ -63,6 +63,6 @@ textures/bl/contentest/water_surface
       	vertexParm              1      	.75         // magnitude of the distortion
      	fragmentProgram			heatHaze.vfp
        	fragmentMap             0       _currentRender
-      	fragmentMap             1       heightmap( textures/contents/water_clouds.png, 10 )   // the normal map for distortion
+      	fragmentMap             1       heightmap( textures/contents/water_clouds.tga, 10 )   // the normal map for distortion
     }
 }
