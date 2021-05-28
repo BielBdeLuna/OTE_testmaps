@@ -1,0 +1,9 @@
+ textures/colors/black
+{
+
+	diffusemap colors/black.tga
+	specularmap colors/black.tga
+	bumpmap bumpmaps/flat.tga
+
+
+}

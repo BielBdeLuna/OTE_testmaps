@@ -1,0 +1,8 @@
+fogs/underwater {
+    fogLight
+    noShadows
+    {
+        map _fog    // using the internal image, z_depth image?
+		colored     // can be colored 
+	}
+}

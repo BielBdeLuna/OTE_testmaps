@@ -1,0 +1,30 @@
+textures/common/dynamic_sky
+{
+
+	//qer_editorimage 			textures/qer/common/dynamic_sky.tga
+    forceOpaque // purpose is twofold, seal the level and transparency overdraw.
+    noshadows
+    noimpact
+
+    // direct lights will still come out of the portal sky as if it were sky.
+    // I bet this is due forceOpaque as it's also required in sky materials.
+
+    // from here down, I find it quite a hacky implementation, I feel this 
+    // should be all internal, and not exposed to the material, we should find 
+    // a way to implement this more neatly. if not, how else would this be used?
+
+    sort                        portalSky
+	{
+    	vertexProgram           sky.vfp //sky.vertex
+     	vertexParm              0       sinTable[time * 0.025 ] * 0.01, cosTable[time * 0.01 ] * 0.01  // texture scrolling
+      	vertexParm              1      	.75         // magnitude of the distortion
+     	fragmentProgram			sky.vfp //sky.pixel
+       	fragmentMap             0       _currentRender
+      	fragmentMap             1       heightmap( textures/contents/water_clouds.png, 10 )   // the normal map for distortion
+    }
+    /*
+    {
+    	vertexProgram           sky.vfp //sky.vertex
+    }
+    */
+}

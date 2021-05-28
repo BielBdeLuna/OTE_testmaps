@@ -1,0 +1,68 @@
+textures/bl/contentest/water
+{
+    noshadows
+    liquid
+    water
+	
+	//qer_editorimage textures/qer/contents/water.tga
+}
+
+textures/bl/contentest/water_surface
+{
+    //noshadows
+    translucent
+    liquid
+    discrete
+	//nonsolid
+    twosided
+    water
+	
+	//qer_editorimage textures/qer/contents/water.tga
+	//{
+	//	blend blend
+	//	map textures/contents/water_name.png
+	//}
+	{
+		blend  diffusemap
+		//blend blend
+		//map textures/dev/16gray.png
+		//scale 32, 32
+		//map textures/qer/contents/water.tga
+		map  textures/contents/water_clouds.tga
+		red			0.25
+		green		0.5
+		blue		.75
+		//alpha		0.5 //doesn't work with diffusemap
+		
+		//rotate sinTable[time * 0.2 ] * 0.0001
+		//scroll  cosTable[time * 0.01 ] * 0.03, time * -0.5
+		//scroll  0, time * -0.5
+		shear cosTable[time * 0.05 ] * 0.05, sinTable[time * 0.055 ] * 0.05
+		scale	1 -sinTable[ time * 0.1 ] * 0.01, 1 -cosTable[ time * 0.15 ] * 0.01
+	}
+	{
+		blend specularmap
+		map  textures/contents/water_clouds.tga
+		scale 0.1, 0.1
+		rotate sinTable[time * 0.1 ] * 0.01
+		shear sinTable[time * 0.025 ] * 0.2, cosTable[time * 0.03 ] * 0.2
+	}
+	{
+		blend bumpmap
+		map   heightmap(textures/contents/water_clouds.tga, 5)
+
+		rotate sinTable[time * 0.2 ] * 0.0001
+		//scroll  cosTable[time * 0.01 ] * 0.03, time * -0.5
+		//scroll  0, time * -0.5
+		shear sinTable[time * 0.05 ] * 0.01, cosTable[time * 0.055 ] * 0.01
+		scale	1 -sinTable[ time * 0.1 ] * 0.01, 1 -cosTable[ time * 0.15 ] * 0.01
+	}
+	{
+    	vertexProgram           heatHaze.vfp
+     	vertexParm              0       sinTable[time * 0.025 ] * 0.01, cosTable[time * 0.01 ] * 0.01  // texture scrolling
+      	vertexParm              1      	.75         // magnitude of the distortion
+     	fragmentProgram			heatHaze.vfp
+       	fragmentMap             0       _currentRender
+      	fragmentMap             1       heightmap( textures/contents/water_clouds.png, 10 )   // the normal map for distortion
+    }
+}

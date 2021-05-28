@@ -1,0 +1,110 @@
+textures/dev/16x16_gray
+{
+    stone
+	//qer_editorimage textures/qer/dev/16gray.tga
+    diffusemap textures/dev/16gray.png
+}
+
+textures/dev/16x16_orange
+{
+    stone
+    //qer_editorimage textures/qer/dev/16orange.tga
+    {
+		blend diffusemap		
+		map textures/dev/16gray.tga
+		red			1
+		green		0.5
+		blue		0
+	}
+}
+
+textures/dev/16x16_red
+{
+    stone
+	//qer_editorimage textures/qer/dev/16red.tga
+    {
+		blend diffusemap		
+		map textures/dev/16gray.tga
+		red			1
+		green		0
+		blue		0
+	}
+}
+
+textures/dev/16x16_blue
+{
+    stone
+	//qer_editorimage textures/qer/dev/16blue.tga
+	{
+		blend diffusemap		
+		map textures/dev/16gray.tga
+		red			0
+		green		0
+		blue		1
+	}
+}
+
+textures/dev/16x16_green
+{
+    stone
+    //qer_editorimage textures/qer/dev/16green.tga
+	{
+		blend diffusemap		
+		map textures/dev/16gray.tga
+		red			0
+		green		1
+		blue		0
+	}
+}
+
+textures/dev/16x16_yellow
+{
+    stone
+	//qer_editorimage textures/qer/dev/16yellow.tga
+	{
+		blend diffusemap		
+		map textures/dev/16gray.tga
+		red			1
+		green		1
+		blue		0
+	}
+}
+
+textures/dev/16x16_fucsia
+{
+    stone
+	qer_editorimage textures/qer/dev/16fucsia.tga
+	{
+		blend diffusemap		
+		map textures/dev/16gray.tga
+		red			1
+		green		0
+		blue		1
+	}
+}
+
+textures/dev/16x16_cian
+{
+    stone
+	//qer_editorimage textures/qer/dev/16cian.tga
+	{
+		blend diffusemap		
+		map textures/dev/16gray.tga
+		red			0
+		green		1
+		blue		1
+	}
+}
+
+textures/dev/16x16_orange
+{
+    stone
+	//qer_editorimage textures/qer/dev/16orange.tga
+	{
+		blend diffusemap		
+		map textures/dev/16gray.tga
+		red			1
+		green		0.5
+		blue		0
+	}
+}

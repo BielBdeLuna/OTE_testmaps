@@ -1,0 +1,11 @@
+// this defines a portal, seperating areas of the map.
+// when within the players POV it's "open", else "closed".
+// if it's in a func_door it's closed when the door is closed.
+// see https://modwiki.xnet.fi/Visportal
+textures/common/visportal
+{
+	//qer_editorimage	textures/common/visportal.png
+	areaportal
+	
+	noShadows
+}
