@@ -96,15 +96,4 @@ textures/dev/16x16_cian
 	}
 }
 
-textures/dev/16x16_orange
-{
-    stone
-	//qer_editorimage textures/qer/dev/16orange.tga
-	{
-		blend diffusemap		
-		map textures/dev/16gray.tga
-		red			1
-		green		0.5
-		blue		0
-	}
-}
+

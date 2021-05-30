@@ -1500,7 +1500,7 @@ brushDef3
 ( 0 1 0 -1280 ) ( ( 0.0625 0 0 ) ( 0 0.0625 0 ) ) "textures/dev/16x16_gray" 0 0 0
 ( 1 0 0 192 ) ( ( 0.0625 0 0 ) ( 0 0.0625 0 ) ) "textures/dev/16x16_gray" 0 0 0
 ( 0 0 -1 -176 ) ( ( 0.0625 0 0 ) ( 0 0.0625 0 ) ) "textures/dev/16x16_gray" 0 0 0
-( 0 -1 0 1216 ) ( ( 0.0625 0 0 ) ( 0 0.0625 0 ) ) "textures/dev/16x16_gray" 0 0 0
+( 0 -1 0 1152 ) ( ( 0.0625 0 1 ) ( 0 0.0625 0 ) ) "textures/dev/16x16_gray" 0 0 0
 ( -1 0 0 -256 ) ( ( 0.0625 0 0 ) ( 0 0.0625 0 ) ) "textures/dev/16x16_gray" 0 0 0
 }
 }
@@ -1509,7 +1509,7 @@ brushDef3
 brushDef3
 {
 ( 0 0 1 0 ) ( ( 0.0625 0 0 ) ( 0 0.0625 0 ) ) "textures/dev/16x16_gray" 0 0 0
-( 0 1 0 -896 ) ( ( 0.0625 0 0 ) ( 0 0.0625 0 ) ) "textures/dev/16x16_gray" 0 0 0
+( 0 1 0 -960 ) ( ( 0.0625 0 1 ) ( 0 0.0625 0 ) ) "textures/dev/16x16_gray" 0 0 0
 ( 1 0 0 192 ) ( ( 0.0625 0 0 ) ( 0 0.0625 0 ) ) "textures/dev/16x16_gray" 0 0 0
 ( 0 0 -1 -176 ) ( ( 0.0625 0 0 ) ( 0 0.0625 0 ) ) "textures/dev/16x16_gray" 0 0 0
 ( 0 -1 0 768 ) ( ( 0.0625 0 0 ) ( 0 0.0625 0 ) ) "textures/dev/16x16_gray" 0 0 0
@@ -1521,10 +1521,10 @@ brushDef3
 brushDef3
 {
 ( 0 0 1 112 ) ( ( 0.0625 0 0 ) ( 0 0.0625 0 ) ) "textures/dev/16x16_gray" 0 0 0
-( 0 1 0 -1216 ) ( ( 0.0625 0 0 ) ( 0 0.0625 0 ) ) "textures/dev/16x16_gray" 0 0 0
+( 0 1 0 -1152 ) ( ( 0.0625 0 0 ) ( 0 0.0625 0 ) ) "textures/dev/16x16_gray" 0 0 0
 ( 1 0 0 192 ) ( ( 0.0625 0 0 ) ( 0 0.0625 0 ) ) "textures/dev/16x16_gray" 0 0 0
 ( 0 0 -1 -176 ) ( ( 0.0625 0 0 ) ( 0 0.0625 0 ) ) "textures/dev/16x16_gray" 0 0 0
-( 0 -1 0 896 ) ( ( 0.0625 0 0 ) ( 0 0.0625 0 ) ) "textures/dev/16x16_gray" 0 0 0
+( 0 -1 0 960 ) ( ( 0.0625 0 0 ) ( 0 0.0625 0 ) ) "textures/dev/16x16_gray" 0 0 0
 ( -1 0 0 -256 ) ( ( 0.0625 0 0 ) ( 0 0.0625 0 ) ) "textures/dev/16x16_gray" 0 0 0
 }
 }
@@ -4812,10 +4812,10 @@ brushDef3
 {
 ( 0 0 1 -48 ) ( ( 0.0078125 0 0 ) ( 0 0.0078125 0 ) ) "textures/common/visportal" 0 0 0
 ( 0 1 0 -1088 ) ( ( 0.0078125 0 0 ) ( 0 0.0078125 0 ) ) "textures/common/visportal" 0 0 0
-( 1 0 0 -1344 ) ( ( 0.0078125 0 0 ) ( 0 0.0078125 0 ) ) "textures/common/visportal" 0 0 0
+( 1 0 0 -1296 ) ( ( 0.0078125 0 0.125 ) ( 0 0.0078125 0 ) ) "textures/common/visportal" 0 0 0
 ( 0 0 -1 -64 ) ( ( 0.0078125 0 0 ) ( 0 0.0078125 0 ) ) "textures/common/visportal" 0 0 0
 ( 0 -1 0 1024 ) ( ( 0.0078125 0 0 ) ( 0 0.0078125 0 ) ) "textures/common/visportal" 0 0 0
-( -1 0 0 1280 ) ( ( 0.0078125 0 0 ) ( 0 0.0078125 0 ) ) "textures/common/visportal" 0 0 0
+( -1 0 0 1280 ) ( ( 0.0078125 0 63.875 ) ( 0 0.0078125 0 ) ) "textures/common/visportal" 0 0 0
 }
 }
 // primitive 401
@@ -4824,7 +4824,7 @@ brushDef3
 {
 ( 0 0 1 -240 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/common/visportal" 0 0 0
 ( 0 1 0 -1216 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/common/visportal" 0 0 0
-( 1 0 0 -1344 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/common/visportal" 0 0 0
+( 1 0 0 -1296 ) ( ( 0.015625 0 0.25 ) ( 0 0.015625 0 ) ) "textures/common/visportal" 0 0 0
 ( 0 0 -1 128 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/common/visportal" 0 0 0
 ( 0 -1 0 1152 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/common/visportal" 0 0 0
 ( -1 0 0 1280 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/common/visportal" 0 0 0
@@ -4839,7 +4839,7 @@ brushDef3
 ( 1 0 0 -1152 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/common/visportal" 0 0 0
 ( 0 0 -1 128 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/common/visportal" 0 0 0
 ( 0 -1 0 1152 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/common/visportal" 0 0 0
-( -1 0 0 1088 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/common/visportal" 0 0 0
+( -1 0 0 1136 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/common/visportal" 0 0 0
 }
 }
 // primitive 403
@@ -4871,21 +4871,21 @@ brushDef3
 brushDef3
 {
 ( 0 0 1 -240 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/common/visportal" 0 0 0
-( 0 1 0 -768 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/common/visportal" 0 0 0
+( 0 1 0 -720 ) ( ( 0.015625 0 0 ) ( 0 0.015625 63.5 ) ) "textures/common/visportal" 0 0 0
 ( 1 0 0 64 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/common/visportal" 0 0 0
-( 0 0 -1 128 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/common/visportal" 0 0 0
-( 0 -1 0 736 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/common/visportal" 0 0 0
-( -1 0 0 -128 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/common/visportal" 0 0 0
+( 0 0 -1 80 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/common/visportal" 0 0 0
+( 0 -1 0 704 ) ( ( 0.015625 0 0 ) ( 0 0.015625 63.75 ) ) "textures/common/visportal" 0 0 0
+( -1 0 0 -128 ) ( ( 0.015625 0 62.75 ) ( 0 0.015625 62.5 ) ) "textures/common/visportal" 0 0 0
 }
 }
 // primitive 406
 {
 brushDef3
 {
-( 0 0 1 -384 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/common/visportal" 0 0 0
+( 0 0 1 -320 ) ( ( 0.015625 0 0.25 ) ( 0 0.015625 0 ) ) "textures/common/visportal" 0 0 0
 ( 0 1 0 -768 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/common/visportal" 0 0 0
 ( 1 0 0 -832 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/common/visportal" 0 0 0
-( 0 0 -1 320 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/common/visportal" 0 0 0
+( 0 0 -1 288 ) ( ( 0.015625 0 0.25 ) ( 0 0.015625 0 ) ) "textures/common/visportal" 0 0 0
 ( 0 -1 0 512 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/common/visportal" 0 0 0
 ( -1 0 0 512 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/common/visportal" 0 0 0
 }
@@ -4897,9 +4897,9 @@ brushDef3
 ( 0 0 1 -80 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/common/visportal" 0 0 0
 ( 0 1 0 -448 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/common/visportal" 0 0 0
 ( 1 0 0 -64 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/common/visportal" 0 0 0
-( 0 0 -1 -32 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/common/visportal" 0 0 0
+( 0 0 -1 -32 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0.25 ) ) "textures/common/visportal" 0 0 0
 ( 0 -1 0 384 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/common/visportal" 0 0 0
-( -1 0 0 0 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/common/visportal" 0 0 0
+( -1 0 0 48 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/common/visportal" 0 0 0
 }
 }
 // primitive 408
@@ -4909,7 +4909,7 @@ brushDef3
 ( 0 0 1 -320 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/common/visportal" 0 0 0
 ( 0 1 0 128 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/common/visportal" 0 0 0
 ( 1 0 0 -128 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/common/visportal" 0 0 0
-( 0 0 -1 192 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/common/visportal" 0 0 0
+( 0 0 -1 288 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/common/visportal" 0 0 0
 ( 0 -1 0 -384 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/common/visportal" 0 0 0
 ( -1 0 0 -128 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/common/visportal" 0 0 0
 }
@@ -4932,10 +4932,10 @@ brushDef3
 {
 ( 0 0 1 -192 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/common/visportal" 0 0 0
 ( 0 1 0 64 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/common/visportal" 0 0 0
-( 1 0 0 352 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/common/visportal" 0 0 0
+( 1 0 0 448 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/common/visportal" 0 0 0
 ( 0 0 -1 0 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/common/visportal" 0 0 0
 ( 0 -1 0 -192 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/common/visportal" 0 0 0
-( -1 0 0 -384 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/common/visportal" 0 0 0
+( -1 0 0 -512 ) ( ( 0.015625 0 63.75 ) ( 0 0.015625 0 ) ) "textures/common/visportal" 0 0 0
 }
 }
 // primitive 411
@@ -4968,10 +4968,10 @@ brushDef3
 {
 ( 0 0 1 -192 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/common/visportal" 0 0 0
 ( 0 1 0 256 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/common/visportal" 0 0 0
-( 1 0 0 -256 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/common/visportal" 0 0 0
+( 1 0 0 -288 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/common/visportal" 0 0 0
 ( 0 0 -1 0 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/common/visportal" 0 0 0
 ( 0 -1 0 -384 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/common/visportal" 0 0 0
-( -1 0 0 192 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/common/visportal" 0 0 0
+( -1 0 0 256 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/common/visportal" 0 0 0
 }
 }
 // primitive 414
@@ -5293,7 +5293,7 @@ brushDef3
 ( 0 0 1 -512 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/common/visportal" 0 0 0
 ( 0 1 0 -1120 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/common/visportal" 0 0 0
 ( 1 0 0 -256 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/common/visportal" 0 0 0
-( 0 0 -1 352 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/common/visportal" 0 0 0
+( 0 0 -1 480 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/common/visportal" 0 0 0
 ( 0 -1 0 1024 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/common/visportal" 0 0 0
 ( -1 0 0 64 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/common/visportal" 0 0 0
 }
@@ -5305,7 +5305,7 @@ brushDef3
 ( 0 0 1 -512 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/common/visportal" 0 0 0
 ( 0 1 0 -1728 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/common/visportal" 0 0 0
 ( 1 0 0 -1280 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/common/visportal" 0 0 0
-( 0 0 -1 320 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/common/visportal" 0 0 0
+( 0 0 -1 480 ) ( ( 0.015625 0 0 ) ( 0 0.015625 63.75 ) ) "textures/common/visportal" 0 0 0
 ( 0 -1 0 1408 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/common/visportal" 0 0 0
 ( -1 0 0 896 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/common/visportal" 0 0 0
 }
@@ -5317,7 +5317,7 @@ brushDef3
 ( 0 0 1 -512 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/common/visportal" 0 0 0
 ( 0 1 0 -1856 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/common/visportal" 0 0 0
 ( 1 0 0 0 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/common/visportal" 0 0 0
-( 0 0 -1 320 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/common/visportal" 0 0 0
+( 0 0 -1 480 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0.25 ) ) "textures/common/visportal" 0 0 0
 ( 0 -1 0 1408 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/common/visportal" 0 0 0
 ( -1 0 0 -320 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/common/visportal" 0 0 0
 }
@@ -5327,11 +5327,11 @@ brushDef3
 brushDef3
 {
 ( 0 0 1 -256 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/common/visportal" 0 0 0
-( 0 1 0 -1408 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/common/visportal" 0 0 0
+( 0 1 0 -1600 ) ( ( 0.015625 0 1.5 ) ( 0 0.015625 0 ) ) "textures/common/visportal" 0 0 0
 ( 1 0 0 320 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/common/visportal" 0 0 0
 ( 0 0 -1 0 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/common/visportal" 0 0 0
-( 0 -1 0 1344 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/common/visportal" 0 0 0
-( -1 0 0 -448 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/common/visportal" 0 0 0
+( 0 -1 0 1408 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/common/visportal" 0 0 0
+( -1 0 0 -352 ) ( ( 0.015625 0 4 ) ( 0 0.015625 0 ) ) "textures/common/visportal" 0 0 0
 }
 }
 // primitive 444
@@ -5341,7 +5341,7 @@ brushDef3
 ( 0 0 1 -512 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/common/visportal" 0 0 0
 ( 0 1 0 -96 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/common/visportal" 0 0 0
 ( 1 0 0 -832 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/common/visportal" 0 0 0
-( 0 0 -1 384 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/common/visportal" 0 0 0
+( 0 0 -1 480 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/common/visportal" 0 0 0
 ( 0 -1 0 0 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/common/visportal" 0 0 0
 ( -1 0 0 512 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/common/visportal" 0 0 0
 }
@@ -5353,7 +5353,7 @@ brushDef3
 ( 0 0 1 -512 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/common/visportal" 0 0 0
 ( 0 1 0 192 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/common/visportal" 0 0 0
 ( 1 0 0 -2048 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/common/visportal" 0 0 0
-( 0 0 -1 320 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/common/visportal" 0 0 0
+( 0 0 -1 480 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/common/visportal" 0 0 0
 ( 0 -1 0 -384 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/common/visportal" 0 0 0
 ( -1 0 0 1728 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/common/visportal" 0 0 0
 }
@@ -5362,11 +5362,11 @@ brushDef3
 {
 brushDef3
 {
-( 0 0 1 48 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/common/visportal" 0 0 0
+( 0 0 1 64 ) ( ( 0.015625 0 0 ) ( 0 0.015625 63.25 ) ) "textures/common/visportal" 0 0 0
 ( 0 1 0 -320 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/common/visportal" 0 0 0
 ( 1 0 0 192 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/common/visportal" 0 0 0
-( 0 0 -1 -64 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/common/visportal" 0 0 0
-( 0 -1 0 256 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/common/visportal" 0 0 0
+( 0 0 -1 -80 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/common/visportal" 0 0 0
+( 0 -1 0 256 ) ( ( 0.015625 0 0.25 ) ( 0 0.015625 62.5 ) ) "textures/common/visportal" 0 0 0
 ( -1 0 0 -256 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/common/visportal" 0 0 0
 }
 }
@@ -5377,7 +5377,7 @@ brushDef3
 ( 0 0 1 320 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/common/visportal" 0 0 0
 ( 0 1 0 128 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/common/visportal" 0 0 0
 ( 1 0 0 -320 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/common/visportal" 0 0 0
-( 0 0 -1 -384 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/common/visportal" 0 0 0
+( 0 0 -1 -384 ) ( ( 0.015625 0 0 ) ( 0 0.015625 63.5 ) ) "textures/common/visportal" 0 0 0
 ( 0 -1 0 -384 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/common/visportal" 0 0 0
 ( -1 0 0 192 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/common/visportal" 0 0 0
 }
@@ -5423,7 +5423,7 @@ brushDef3
 brushDef3
 {
 ( 0 0 1 -192 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/common/visportal" 0 0 0
-( 0 1 0 -128 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/common/visportal" 0 0 0
+( 0 1 0 -80 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/common/visportal" 0 0 0
 ( 1 0 0 -1632 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/common/visportal" 0 0 0
 ( 0 0 -1 96 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/common/visportal" 0 0 0
 ( 0 -1 0 64 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/common/visportal" 0 0 0
@@ -5434,11 +5434,11 @@ brushDef3
 {
 brushDef3
 {
-( 0 0 1 48 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/common/visportal" 0 0 0
+( 0 0 1 64 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/common/visportal" 0 0 0
 ( 0 1 0 -640 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/common/visportal" 0 0 0
 ( 1 0 0 -704 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/common/visportal" 0 0 0
-( 0 0 -1 -64 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/common/visportal" 0 0 0
-( 0 -1 0 512 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/common/visportal" 0 0 0
+( 0 0 -1 -80 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/common/visportal" 0 0 0
+( 0 -1 0 512 ) ( ( 0.015625 0 0 ) ( 0 0.015625 63.5 ) ) "textures/common/visportal" 0 0 0
 ( -1 0 0 576 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/common/visportal" 0 0 0
 }
 }
@@ -5482,10 +5482,10 @@ brushDef3
 {
 brushDef3
 {
-( 0 0 1 48 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/common/visportal" 0 0 0
+( 0 0 1 64 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/common/visportal" 0 0 0
 ( 0 1 0 -512 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/common/visportal" 0 0 0
 ( 1 0 0 -1792 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/common/visportal" 0 0 0
-( 0 0 -1 -64 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/common/visportal" 0 0 0
+( 0 0 -1 -80 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/common/visportal" 0 0 0
 ( 0 -1 0 192 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/common/visportal" 0 0 0
 ( -1 0 0 1408 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/common/visportal" 0 0 0
 }
@@ -5499,7 +5499,7 @@ brushDef3
 ( 1 0 0 -1920 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/common/visportal" 0 0 0
 ( 0 0 -1 -48 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/common/visportal" 0 0 0
 ( 0 -1 0 576 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/common/visportal" 0 0 0
-( -1 0 0 1856 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/common/visportal" 0 0 0
+( -1 0 0 1904 ) ( ( 0.015625 0 0.25 ) ( 0 0.015625 0 ) ) "textures/common/visportal" 0 0 0
 }
 }
 // primitive 458
@@ -5507,10 +5507,10 @@ brushDef3
 brushDef3
 {
 ( 0 0 1 -320 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/common/visportal" 0 0 0
-( 0 1 0 -960 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/common/visportal" 0 0 0
+( 0 1 0 -896 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/common/visportal" 0 0 0
 ( 1 0 0 -576 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/common/visportal" 0 0 0
 ( 0 0 -1 -64 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/common/visportal" 0 0 0
-( 0 -1 0 896 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/common/visportal" 0 0 0
+( 0 -1 0 864 ) ( ( 0.015625 0 0.75 ) ( 0 0.015625 0 ) ) "textures/common/visportal" 0 0 0
 ( -1 0 0 384 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/common/visportal" 0 0 0
 }
 }
@@ -5519,10 +5519,10 @@ brushDef3
 brushDef3
 {
 ( 0 0 1 -320 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/common/visportal" 0 0 0
-( 0 1 0 -960 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/common/visportal" 0 0 0
+( 0 1 0 -896 ) ( ( 0.015625 0 63.75 ) ( 0 0.015625 0 ) ) "textures/common/visportal" 0 0 0
 ( 1 0 0 -1280 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/common/visportal" 0 0 0
 ( 0 0 -1 -64 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/common/visportal" 0 0 0
-( 0 -1 0 896 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/common/visportal" 0 0 0
+( 0 -1 0 864 ) ( ( 0.015625 0 0.25 ) ( 0 0.015625 0 ) ) "textures/common/visportal" 0 0 0
 ( -1 0 0 1152 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/common/visportal" 0 0 0
 }
 }
@@ -5556,10 +5556,10 @@ brushDef3
 {
 ( 0 0 1 -192 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/common/visportal" 0 0 0
 ( 0 1 0 -704 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/common/visportal" 0 0 0
-( 1 0 0 256 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/common/visportal" 0 0 0
+( 1 0 0 320 ) ( ( 0.015625 0 0.25 ) ( 0 0.015625 0 ) ) "textures/common/visportal" 0 0 0
 ( 0 0 -1 -64 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/common/visportal" 0 0 0
 ( 0 -1 0 576 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/common/visportal" 0 0 0
-( -1 0 0 -320 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/common/visportal" 0 0 0
+( -1 0 0 -352 ) ( ( 0.015625 0 63.75 ) ( 0 0.015625 0 ) ) "textures/common/visportal" 0 0 0
 }
 }
 // primitive 463
@@ -5570,7 +5570,7 @@ brushDef3
 ( 0 1 0 -256 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/common/visportal" 0 0 0
 ( 1 0 0 -1280 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/common/visportal" 0 0 0
 ( 0 0 -1 96 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/common/visportal" 0 0 0
-( 0 -1 0 64 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/common/visportal" 0 0 0
+( 0 -1 0 224 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/common/visportal" 0 0 0
 ( -1 0 0 1088 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/common/visportal" 0 0 0
 }
 }
@@ -5591,10 +5591,10 @@ brushDef3
 brushDef3
 {
 ( 0 0 1 -320 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/common/visportal" 0 0 0
-( 0 1 0 -128 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/common/visportal" 0 0 0
+( 0 1 0 -64 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/common/visportal" 0 0 0
 ( 1 0 0 -2048 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/common/visportal" 0 0 0
 ( 0 0 -1 96 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/common/visportal" 0 0 0
-( 0 -1 0 64 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/common/visportal" 0 0 0
+( 0 -1 0 0 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/common/visportal" 0 0 0
 ( -1 0 0 1920 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/common/visportal" 0 0 0
 }
 }
@@ -5724,7 +5724,7 @@ brushDef3
 {
 ( 0 0 1 -48 ) ( ( 0.0625 0 0 ) ( 0 0.0625 0 ) ) "textures/common/visportal" 0 0 0
 ( 0 1 0 -1152 ) ( ( 0.0625 0 0 ) ( 0 0.0625 0 ) ) "textures/common/visportal" 0 0 0
-( 1 0 0 0 ) ( ( 0.0625 0 0 ) ( 0 0.0625 0 ) ) "textures/common/visportal" 0 0 0
+( 1 0 0 0 ) ( ( 0.0625 0 63 ) ( 0 0.0625 0 ) ) "textures/common/visportal" 0 0 0
 ( 0 0 -1 -128 ) ( ( 0.0625 0 0 ) ( 0 0.0625 0 ) ) "textures/common/visportal" 0 0 0
 ( 0 -1 0 960 ) ( ( 0.0625 0 0 ) ( 0 0.0625 0 ) ) "textures/common/visportal" 0 0 0
 ( -1 0 0 -32 ) ( ( 0.0625 0 0 ) ( 0 0.0625 0 ) ) "textures/common/visportal" 0 0 0
@@ -5814,6 +5814,654 @@ brushDef3
 ( -1 0 0 -1088 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/bl/skies/greatest_sky_evaaar" 0 0 0
 }
 }
+// primitive 484
+{
+brushDef3
+{
+( 0 0 1 -192 ) ( ( 0.03125 0 0 ) ( 0 0.03125 0 ) ) "textures/common/visportal" 0 0 0
+( 0 1 0 -256 ) ( ( 0.03125 0 0 ) ( 0 0.03125 0 ) ) "textures/common/visportal" 0 0 0
+( 1 0 0 -256 ) ( ( 0.03125 0 0 ) ( 0 0.03125 0 ) ) "textures/common/visportal" 0 0 0
+( 0 0 -1 0 ) ( ( 0.03125 0 0 ) ( 0 0.03125 0 ) ) "textures/common/visportal" 0 0 0
+( 0 -1 0 224 ) ( ( 0.03125 0 0 ) ( 0 0.03125 0 ) ) "textures/common/visportal" 0 0 0
+( -1 0 0 64 ) ( ( 0.03125 0 0 ) ( 0 0.03125 0 ) ) "textures/common/visportal" 0 0 0
+}
+}
+// primitive 485
+{
+brushDef3
+{
+( 0 0 1 160 ) ( ( 0.03125 0 0 ) ( 0 0.03125 0.5 ) ) "textures/common/visportal" 0 0 0
+( 0 1 0 64 ) ( ( 0.03125 0 0 ) ( 0 0.03125 0 ) ) "textures/common/visportal" 0 0 0
+( 1 0 0 -128 ) ( ( 0.03125 0 0 ) ( 0 0.03125 0 ) ) "textures/common/visportal" 0 0 0
+( 0 0 -1 -320 ) ( ( 0.03125 0 0 ) ( 0 0.03125 0 ) ) "textures/common/visportal" 0 0 0
+( 0 -1 0 -128 ) ( ( 0.03125 0 0 ) ( 0 0.03125 0 ) ) "textures/common/visportal" 0 0 0
+( -1 0 0 0 ) ( ( 0.03125 0 0 ) ( 0 0.03125 0 ) ) "textures/common/visportal" 0 0 0
+}
+}
+// primitive 486
+{
+brushDef3
+{
+( 0 0 1 160 ) ( ( 0.03125 0 0 ) ( 0 0.03125 0 ) ) "textures/common/visportal" 0 0 0
+( 0 1 0 64 ) ( ( 0.03125 0 0 ) ( 0 0.03125 0 ) ) "textures/common/visportal" 0 0 0
+( 1 0 0 64 ) ( ( 0.03125 0 0 ) ( 0 0.03125 0 ) ) "textures/common/visportal" 0 0 0
+( 0 0 -1 -320 ) ( ( 0.03125 0 0 ) ( 0 0.03125 0 ) ) "textures/common/visportal" 0 0 0
+( 0 -1 0 -128 ) ( ( 0.03125 0 0 ) ( 0 0.03125 0 ) ) "textures/common/visportal" 0 0 0
+( -1 0 0 -192 ) ( ( 0.03125 0 0 ) ( 0 0.03125 0 ) ) "textures/common/visportal" 0 0 0
+}
+}
+// primitive 487
+{
+brushDef3
+{
+( 0 0 1 160 ) ( ( 0.03125 0 0 ) ( 0 0.03125 0 ) ) "textures/common/visportal" 0 0 0
+( 0 1 0 64 ) ( ( 0.03125 0 0 ) ( 0 0.03125 0 ) ) "textures/common/visportal" 0 0 0
+( 1 0 0 -320 ) ( ( 0.03125 0 0 ) ( 0 0.03125 0 ) ) "textures/common/visportal" 0 0 0
+( 0 0 -1 -320 ) ( ( 0.03125 0 0 ) ( 0 0.03125 0 ) ) "textures/common/visportal" 0 0 0
+( 0 -1 0 -128 ) ( ( 0.03125 0 0 ) ( 0 0.03125 0 ) ) "textures/common/visportal" 0 0 0
+( -1 0 0 192 ) ( ( 0.03125 0 0 ) ( 0 0.03125 0 ) ) "textures/common/visportal" 0 0 0
+}
+}
+// primitive 488
+{
+brushDef3
+{
+( 0 0 1 160 ) ( ( 0.03125 0 13 ) ( 0 0.03125 0 ) ) "textures/common/visportal" 0 0 0
+( 0 1 0 448 ) ( ( 0.03125 0 0 ) ( 0 0.03125 0 ) ) "textures/common/visportal" 0 0 0
+( 1 0 0 64 ) ( ( 0.03125 0 13 ) ( 0 0.03125 0 ) ) "textures/common/visportal" 0 0 0
+( 0 0 -1 -320 ) ( ( 0.03125 0 13 ) ( 0 0.03125 0 ) ) "textures/common/visportal" 0 0 0
+( 0 -1 0 -480 ) ( ( 0.03125 0 0 ) ( 0 0.03125 0 ) ) "textures/common/visportal" 0 0 0
+( -1 0 0 -192 ) ( ( 0.03125 0 51 ) ( 0 0.03125 0 ) ) "textures/common/visportal" 0 0 0
+}
+}
+// primitive 489
+{
+brushDef3
+{
+( 0 0 1 160 ) ( ( 0.03125 0 13 ) ( 0 0.03125 0 ) ) "textures/common/visportal" 0 0 0
+( 0 1 0 448 ) ( ( 0.03125 0 0 ) ( 0 0.03125 0 ) ) "textures/common/visportal" 0 0 0
+( 1 0 0 -320 ) ( ( 0.03125 0 13 ) ( 0 0.03125 0 ) ) "textures/common/visportal" 0 0 0
+( 0 0 -1 -320 ) ( ( 0.03125 0 13 ) ( 0 0.03125 0 ) ) "textures/common/visportal" 0 0 0
+( 0 -1 0 -480 ) ( ( 0.03125 0 0 ) ( 0 0.03125 0 ) ) "textures/common/visportal" 0 0 0
+( -1 0 0 192 ) ( ( 0.03125 0 51 ) ( 0 0.03125 0 ) ) "textures/common/visportal" 0 0 0
+}
+}
+// primitive 490
+{
+brushDef3
+{
+( 0 0 1 160 ) ( ( 0.03125 0 13 ) ( 0 0.03125 0.5 ) ) "textures/common/visportal" 0 0 0
+( 0 1 0 448 ) ( ( 0.03125 0 0 ) ( 0 0.03125 0 ) ) "textures/common/visportal" 0 0 0
+( 1 0 0 -128 ) ( ( 0.03125 0 13 ) ( 0 0.03125 0 ) ) "textures/common/visportal" 0 0 0
+( 0 0 -1 -320 ) ( ( 0.03125 0 13 ) ( 0 0.03125 0 ) ) "textures/common/visportal" 0 0 0
+( 0 -1 0 -480 ) ( ( 0.03125 0 0 ) ( 0 0.03125 0 ) ) "textures/common/visportal" 0 0 0
+( -1 0 0 0 ) ( ( 0.03125 0 51 ) ( 0 0.03125 0 ) ) "textures/common/visportal" 0 0 0
+}
+}
+// primitive 491
+{
+brushDef3
+{
+( 0 0 1 96 ) ( ( 0.03125 0 0 ) ( 0 0.03125 0.5 ) ) "textures/common/visportal" 0 0 0
+( 0 1 0 224 ) ( ( 0.03125 0 0 ) ( 0 0.03125 0 ) ) "textures/common/visportal" 0 0 0
+( 1 0 0 0 ) ( ( 0.03125 0 0 ) ( 0 0.03125 0 ) ) "textures/common/visportal" 0 0 0
+( 0 0 -1 -128 ) ( ( 0.03125 0 0 ) ( 0 0.03125 0 ) ) "textures/common/visportal" 0 0 0
+( 0 -1 0 -288 ) ( ( 0.03125 0 0 ) ( 0 0.03125 0 ) ) "textures/common/visportal" 0 0 0
+( -1 0 0 -64 ) ( ( 0.03125 0 0 ) ( 0 0.03125 0 ) ) "textures/common/visportal" 0 0 0
+}
+}
+// primitive 492
+{
+brushDef3
+{
+( 0 0 1 -80 ) ( ( 0.03125 0 0 ) ( 0 0.03125 0 ) ) "textures/common/visportal" 0 0 0
+( 0 1 0 0 ) ( ( 0.03125 0 0 ) ( 0 0.03125 0 ) ) "textures/common/visportal" 0 0 0
+( 1 0 0 -896 ) ( ( 0.03125 0 0 ) ( 0 0.03125 0 ) ) "textures/common/visportal" 0 0 0
+( 0 0 -1 -64 ) ( ( 0.03125 0 0 ) ( 0 0.03125 0 ) ) "textures/common/visportal" 0 0 0
+( 0 -1 0 -64 ) ( ( 0.03125 0 0 ) ( 0 0.03125 63.5 ) ) "textures/common/visportal" 0 0 0
+( -1 0 0 448 ) ( ( 0.03125 0 0 ) ( 0 0.03125 0 ) ) "textures/common/visportal" 0 0 0
+}
+}
+// primitive 493
+{
+brushDef3
+{
+( 0 0 1 -128 ) ( ( 0.03125 0 0 ) ( 0 0.03125 63.5 ) ) "textures/common/visportal" 0 0 0
+( 0 1 0 -192 ) ( ( 0.03125 0 0.5 ) ( 0 0.03125 0 ) ) "textures/common/visportal" 0 0 0
+( 1 0 0 -1024 ) ( ( 0.03125 0 0 ) ( 0 0.03125 0 ) ) "textures/common/visportal" 0 0 0
+( 0 0 -1 96 ) ( ( 0.03125 0 0 ) ( 0 0.03125 1 ) ) "textures/common/visportal" 0 0 0
+( 0 -1 0 0 ) ( ( 0.03125 0 0 ) ( 0 0.03125 0 ) ) "textures/common/visportal" 0 0 0
+( -1 0 0 320 ) ( ( 0.03125 0 0 ) ( 0 0.03125 0 ) ) "textures/common/visportal" 0 0 0
+}
+}
+// primitive 494
+{
+brushDef3
+{
+( 0 0 1 -256 ) ( ( 0.03125 0 0 ) ( 0 0.03125 0 ) ) "textures/common/visportal" 0 0 0
+( 0 1 0 -1216 ) ( ( 0.03125 0 0 ) ( 0 0.03125 0 ) ) "textures/common/visportal" 0 0 0
+( 1 0 0 -256 ) ( ( 0.03125 0 0 ) ( 0 0.03125 0 ) ) "textures/common/visportal" 0 0 0
+( 0 0 -1 224 ) ( ( 0.03125 0 0.5 ) ( 0 0.03125 0 ) ) "textures/common/visportal" 0 0 0
+( 0 -1 0 1024 ) ( ( 0.03125 0 0 ) ( 0 0.03125 0 ) ) "textures/common/visportal" 0 0 0
+( -1 0 0 64 ) ( ( 0.03125 0 0 ) ( 0 0.03125 0 ) ) "textures/common/visportal" 0 0 0
+}
+}
+// primitive 495
+{
+brushDef3
+{
+( 0 0 1 -320 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/common/visportal" 0 0 0
+( 0 1 0 -96 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/common/visportal" 0 0 0
+( 1 0 0 -1280 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/common/visportal" 0 0 0
+( 0 0 -1 96 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/common/visportal" 0 0 0
+( 0 -1 0 64 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/common/visportal" 0 0 0
+( -1 0 0 1088 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/common/visportal" 0 0 0
+}
+}
+// primitive 496
+{
+brushDef3
+{
+( 0 0 1 160 ) ( ( 0.03125 0 58 ) ( 0 0.03125 0 ) ) "textures/common/visportal" 0 0 0
+( 0 1 0 -128 ) ( ( 0.03125 0 0 ) ( 0 0.03125 0 ) ) "textures/common/visportal" 0 0 0
+( 1 0 0 -320 ) ( ( 0.03125 0 58 ) ( 0 0.03125 0 ) ) "textures/common/visportal" 0 0 0
+( 0 0 -1 -320 ) ( ( 0.03125 0 58 ) ( 0 0.03125 0 ) ) "textures/common/visportal" 0 0 0
+( 0 -1 0 64 ) ( ( 0.03125 0 0 ) ( 0 0.03125 0 ) ) "textures/common/visportal" 0 0 0
+( -1 0 0 192 ) ( ( 0.03125 0 6 ) ( 0 0.03125 0 ) ) "textures/common/visportal" 0 0 0
+}
+}
+// primitive 497
+{
+brushDef3
+{
+( 0 0 1 160 ) ( ( 0.03125 0 58 ) ( 0 0.03125 0.5 ) ) "textures/common/visportal" 0 0 0
+( 0 1 0 -128 ) ( ( 0.03125 0 0 ) ( 0 0.03125 0 ) ) "textures/common/visportal" 0 0 0
+( 1 0 0 -128 ) ( ( 0.03125 0 58 ) ( 0 0.03125 0 ) ) "textures/common/visportal" 0 0 0
+( 0 0 -1 -320 ) ( ( 0.03125 0 58 ) ( 0 0.03125 0 ) ) "textures/common/visportal" 0 0 0
+( 0 -1 0 64 ) ( ( 0.03125 0 0 ) ( 0 0.03125 0 ) ) "textures/common/visportal" 0 0 0
+( -1 0 0 0 ) ( ( 0.03125 0 6 ) ( 0 0.03125 0 ) ) "textures/common/visportal" 0 0 0
+}
+}
+// primitive 498
+{
+brushDef3
+{
+( 0 0 1 160 ) ( ( 0.03125 0 58 ) ( 0 0.03125 0 ) ) "textures/common/visportal" 0 0 0
+( 0 1 0 -128 ) ( ( 0.03125 0 0 ) ( 0 0.03125 0 ) ) "textures/common/visportal" 0 0 0
+( 1 0 0 64 ) ( ( 0.03125 0 58 ) ( 0 0.03125 0 ) ) "textures/common/visportal" 0 0 0
+( 0 0 -1 -320 ) ( ( 0.03125 0 58 ) ( 0 0.03125 0 ) ) "textures/common/visportal" 0 0 0
+( 0 -1 0 64 ) ( ( 0.03125 0 0 ) ( 0 0.03125 0 ) ) "textures/common/visportal" 0 0 0
+( -1 0 0 -192 ) ( ( 0.03125 0 6 ) ( 0 0.03125 0 ) ) "textures/common/visportal" 0 0 0
+}
+}
+// primitive 499
+{
+brushDef3
+{
+( 0 0 1 -256 ) ( ( 0.03125 0 0 ) ( 0 0.03125 0 ) ) "textures/common/visportal" 0 0 0
+( 0 1 0 -1280 ) ( ( 0.03125 0 0 ) ( 0 0.03125 0 ) ) "textures/common/visportal" 0 0 0
+( 1 0 0 0 ) ( ( 0.03125 0 0 ) ( 0 0.03125 0 ) ) "textures/common/visportal" 0 0 0
+( 0 0 -1 64 ) ( ( 0.03125 0 0 ) ( 0 0.03125 0 ) ) "textures/common/visportal" 0 0 0
+( 0 -1 0 960 ) ( ( 0.03125 0 0 ) ( 0 0.03125 0 ) ) "textures/common/visportal" 0 0 0
+( -1 0 0 -32 ) ( ( 0.03125 0 0 ) ( 0 0.03125 0 ) ) "textures/common/visportal" 0 0 0
+}
+}
+// primitive 500
+{
+brushDef3
+{
+( 0 0 1 -320 ) ( ( 0.03125 0 0 ) ( 0 0.03125 62.5 ) ) "textures/common/visportal" 0 0 0
+( 0 1 0 -1728 ) ( ( 0.03125 0 0 ) ( 0 0.03125 63 ) ) "textures/common/visportal" 0 0 0
+( 1 0 0 -32 ) ( ( 0.03125 0 0 ) ( 0 0.03125 63.5 ) ) "textures/common/visportal" 0 0 0
+( 0 0 -1 -64 ) ( ( 0.03125 0 0 ) ( 0 0.03125 0.5 ) ) "textures/common/visportal" 0 0 0
+( 0 -1 0 1408 ) ( ( 0.03125 0 14 ) ( 0 0.03125 52 ) ) "textures/common/visportal" 0 0 0
+( -1 0 0 0 ) ( ( 0.03125 0 0 ) ( 0 0.03125 63.5 ) ) "textures/common/visportal" 0 0 0
+}
+}
+// primitive 501
+{
+brushDef3
+{
+( 0 0 1 -48 ) ( ( 0.03125 0 0 ) ( 0 0.03125 0 ) ) "textures/common/visportal" 0 0 0
+( 0 1 0 -1152 ) ( ( 0.03125 0 0 ) ( 0 0.03125 0 ) ) "textures/common/visportal" 0 0 0
+( 1 0 0 0 ) ( ( 0.03125 0 0 ) ( 0 0.03125 0 ) ) "textures/common/visportal" 0 0 0
+( 0 0 -1 -128 ) ( ( 0.03125 0 0 ) ( 0 0.03125 0 ) ) "textures/common/visportal" 0 0 0
+( 0 -1 0 1120 ) ( ( 0.03125 0 0.5 ) ( 0 0.03125 0 ) ) "textures/common/visportal" 0 0 0
+( -1 0 0 -192 ) ( ( 0.03125 0 0 ) ( 0 0.03125 0 ) ) "textures/common/visportal" 0 0 0
+}
+}
+// primitive 502
+{
+brushDef3
+{
+( 0 0 1 -48 ) ( ( 0.03125 0 0 ) ( 0 0.03125 0 ) ) "textures/common/visportal" 0 0 0
+( 0 1 0 -992 ) ( ( 0.03125 0 0.5 ) ( 0 0.03125 0 ) ) "textures/common/visportal" 0 0 0
+( 1 0 0 0 ) ( ( 0.03125 0 0 ) ( 0 0.03125 0 ) ) "textures/common/visportal" 0 0 0
+( 0 0 -1 -128 ) ( ( 0.03125 0 0 ) ( 0 0.03125 0 ) ) "textures/common/visportal" 0 0 0
+( 0 -1 0 960 ) ( ( 0.03125 0 62 ) ( 0 0.03125 0 ) ) "textures/common/visportal" 0 0 0
+( -1 0 0 -192 ) ( ( 0.03125 0 0 ) ( 0 0.03125 0 ) ) "textures/common/visportal" 0 0 0
+}
+}
+// primitive 503
+{
+brushDef3
+{
+( 0 0 1 -256 ) ( ( 0.03125 0 0 ) ( 0 0.03125 0 ) ) "textures/common/visportal" 0 0 0
+( 0 1 0 -960 ) ( ( 0.03125 0 0 ) ( 0 0.03125 0 ) ) "textures/common/visportal" 0 0 0
+( 1 0 0 0 ) ( ( 0.03125 0 0 ) ( 0 0.03125 0 ) ) "textures/common/visportal" 0 0 0
+( 0 0 -1 64 ) ( ( 0.03125 0 0 ) ( 0 0.03125 0 ) ) "textures/common/visportal" 0 0 0
+( 0 -1 0 928 ) ( ( 0.03125 0 0 ) ( 0 0.03125 0 ) ) "textures/common/visportal" 0 0 0
+( -1 0 0 -192 ) ( ( 0.03125 0 0 ) ( 0 0.03125 0 ) ) "textures/common/visportal" 0 0 0
+}
+}
+// primitive 504
+{
+brushDef3
+{
+( 0 0 1 -320 ) ( ( 0.03125 0 0 ) ( 0 0.03125 0 ) ) "textures/dev/16x16_gray" 0 0 0
+( 0 1 0 256 ) ( ( 0.03125 0 0 ) ( 0 0.03125 0 ) ) "textures/dev/16x16_gray" 0 0 0
+( 1 0 0 -384 ) ( ( 0.03125 0 0 ) ( 0 0.03125 0 ) ) "textures/dev/16x16_gray" 0 0 0
+( 0 0 -1 192 ) ( ( 0.03125 0 0 ) ( 0 0.03125 0 ) ) "textures/dev/16x16_gray" 0 0 0
+( 0 -1 0 -384 ) ( ( 0.03125 0 0 ) ( 0 0.03125 0 ) ) "textures/dev/16x16_gray" 0 0 0
+( -1 0 0 256 ) ( ( 0.03125 0 0 ) ( 0 0.03125 0 ) ) "textures/dev/16x16_gray" 0 0 0
+}
+}
+// primitive 505
+{
+brushDef3
+{
+( 0 0 1 -192 ) ( ( 0.03125 0 0 ) ( 0 0.03125 0 ) ) "textures/common/visportal" 0 0 0
+( 0 1 0 256 ) ( ( 0.03125 0 0 ) ( 0 0.03125 0 ) ) "textures/common/visportal" 0 0 0
+( 1 0 0 -384 ) ( ( 0.03125 0 0 ) ( 0 0.03125 0 ) ) "textures/common/visportal" 0 0 0
+( 0 0 -1 0 ) ( ( 0.03125 0 0 ) ( 0 0.03125 0 ) ) "textures/common/visportal" 0 0 0
+( 0 -1 0 -384 ) ( ( 0.03125 0 0 ) ( 0 0.03125 0 ) ) "textures/common/visportal" 0 0 0
+( -1 0 0 352 ) ( ( 0.03125 0 0 ) ( 0 0.03125 0 ) ) "textures/common/visportal" 0 0 0
+}
+}
+// primitive 506
+{
+brushDef3
+{
+( 0 0 1 112 ) ( ( 0.03125 0 0 ) ( 0 0.03125 63.5 ) ) "textures/common/visportal" 0 0 0
+( 0 1 0 -320 ) ( ( 0.03125 0 0 ) ( 0 0.03125 0 ) ) "textures/common/visportal" 0 0 0
+( 1 0 0 192 ) ( ( 0.03125 0 63.5 ) ( 0 0.03125 0 ) ) "textures/common/visportal" 0 0 0
+( 0 0 -1 -128 ) ( ( 0.03125 0 0 ) ( 0 0.03125 63.5 ) ) "textures/common/visportal" 0 0 0
+( 0 -1 0 256 ) ( ( 0.03125 0 0.5 ) ( 0 0.03125 0 ) ) "textures/common/visportal" 0 0 0
+( -1 0 0 -256 ) ( ( 0.03125 0 0 ) ( 0 0.03125 0 ) ) "textures/common/visportal" 0 0 0
+}
+}
+// primitive 507
+{
+brushDef3
+{
+( 0 0 1 -256 ) ( ( 0.03125 0 0 ) ( 0 0.03125 63.5 ) ) "textures/common/visportal" 0 0 0
+( 0 1 0 -704 ) ( ( 0.03125 0 63.5 ) ( 0 0.03125 0 ) ) "textures/common/visportal" 0 0 0
+( 1 0 0 320 ) ( ( 0.03125 0 0 ) ( 0 0.03125 0 ) ) "textures/common/visportal" 0 0 0
+( 0 0 -1 -64 ) ( ( 0.03125 0 0 ) ( 0 0.03125 0 ) ) "textures/common/visportal" 0 0 0
+( 0 -1 0 672 ) ( ( 0.03125 0 1.5 ) ( 0 0.03125 0 ) ) "textures/common/visportal" 0 0 0
+( -1 0 0 -448 ) ( ( 0.03125 0 0 ) ( 0 0.03125 0 ) ) "textures/common/visportal" 0 0 0
+}
+}
+// primitive 508
+{
+brushDef3
+{
+( 0 0 1 -256 ) ( ( 0.03125 0 0 ) ( 0 0.03125 0 ) ) "textures/common/visportal" 0 0 0
+( 0 1 0 -576 ) ( ( 0.03125 0 0 ) ( 0 0.03125 0 ) ) "textures/common/visportal" 0 0 0
+( 1 0 0 320 ) ( ( 0.03125 0 0 ) ( 0 0.03125 0 ) ) "textures/common/visportal" 0 0 0
+( 0 0 -1 -64 ) ( ( 0.03125 0 0 ) ( 0 0.03125 0 ) ) "textures/common/visportal" 0 0 0
+( 0 -1 0 512 ) ( ( 0.03125 0 0 ) ( 0 0.03125 0 ) ) "textures/common/visportal" 0 0 0
+( -1 0 0 -448 ) ( ( 0.03125 0 0 ) ( 0 0.03125 0 ) ) "textures/common/visportal" 0 0 0
+}
+}
+// primitive 509
+{
+brushDef3
+{
+( 0 0 1 -320 ) ( ( 0.03125 0 0 ) ( 0 0.03125 63 ) ) "textures/common/visportal" 0 0 0
+( 0 1 0 -896 ) ( ( 0.03125 0 0 ) ( 0 0.03125 0 ) ) "textures/common/visportal" 0 0 0
+( 1 0 0 -960 ) ( ( 0.03125 0 0 ) ( 0 0.03125 0 ) ) "textures/common/visportal" 0 0 0
+( 0 0 -1 -64 ) ( ( 0.03125 0 0 ) ( 0 0.03125 0 ) ) "textures/common/visportal" 0 0 0
+( 0 -1 0 256 ) ( ( 0.03125 0 0 ) ( 0 0.03125 0 ) ) "textures/common/visportal" 0 0 0
+( -1 0 0 928 ) ( ( 0.03125 0 63.5 ) ( 0 0.03125 0 ) ) "textures/common/visportal" 0 0 0
+}
+}
+// primitive 510
+{
+brushDef3
+{
+( 0 0 1 -320 ) ( ( 0.03125 0 0 ) ( 0 0.03125 63 ) ) "textures/common/visportal" 0 0 0
+( 0 1 0 -896 ) ( ( 0.03125 0 1.5 ) ( 0 0.03125 0 ) ) "textures/common/visportal" 0 0 0
+( 1 0 0 -384 ) ( ( 0.03125 0 1 ) ( 0 0.03125 0 ) ) "textures/common/visportal" 0 0 0
+( 0 0 -1 -64 ) ( ( 0.03125 0 0 ) ( 0 0.03125 1 ) ) "textures/common/visportal" 0 0 0
+( 0 -1 0 256 ) ( ( 0.03125 0 0 ) ( 0 0.03125 0 ) ) "textures/common/visportal" 0 0 0
+( -1 0 0 352 ) ( ( 0.03125 0 0 ) ( 0 0.03125 0 ) ) "textures/common/visportal" 0 0 0
+}
+}
+// primitive 511
+{
+brushDef3
+{
+( 0 0 1 -512 ) ( ( 0.03125 0 0 ) ( 0 0.03125 0 ) ) "textures/common/visportal" 0 0 0
+( 0 1 0 -768 ) ( ( 0.03125 0 63.5 ) ( 0 0.03125 0 ) ) "textures/common/visportal" 0 0 0
+( 1 0 0 -1280 ) ( ( 0.03125 0 0 ) ( 0 0.03125 0 ) ) "textures/common/visportal" 0 0 0
+( 0 0 -1 480 ) ( ( 0.03125 0 0 ) ( 0 0.03125 0.5 ) ) "textures/common/visportal" 0 0 0
+( 0 -1 0 256 ) ( ( 0.03125 0 1 ) ( 0 0.03125 0 ) ) "textures/common/visportal" 0 0 0
+( -1 0 0 64 ) ( ( 0.03125 0 0 ) ( 0 0.03125 0 ) ) "textures/common/visportal" 0 0 0
+}
+}
+// primitive 512
+{
+brushDef3
+{
+( 0 0 1 -320 ) ( ( 0.03125 0 0 ) ( 0 0.03125 0 ) ) "textures/common/visportal" 0 0 0
+( 0 1 0 -1536 ) ( ( 0.03125 0 0 ) ( 0 0.03125 0 ) ) "textures/common/visportal" 0 0 0
+( 1 0 0 -1600 ) ( ( 0.03125 0 0.5 ) ( 0 0.03125 0 ) ) "textures/common/visportal" 0 0 0
+( 0 0 -1 -64 ) ( ( 0.03125 0 0 ) ( 0 0.03125 0 ) ) "textures/common/visportal" 0 0 0
+( 0 -1 0 1408 ) ( ( 0.03125 0 0 ) ( 0 0.03125 0 ) ) "textures/common/visportal" 0 0 0
+( -1 0 0 1568 ) ( ( 0.03125 0 63.5 ) ( 0 0.03125 0 ) ) "textures/common/visportal" 0 0 0
+}
+}
+// primitive 513
+{
+brushDef3
+{
+( 0 0 1 -320 ) ( ( 0.03125 0 0 ) ( 0 0.03125 0 ) ) "textures/common/visportal" 0 0 0
+( 0 1 0 -1600 ) ( ( 0.03125 0 0 ) ( 0 0.03125 63.5 ) ) "textures/common/visportal" 0 0 0
+( 1 0 0 -1280 ) ( ( 0.03125 0 0 ) ( 0 0.03125 0 ) ) "textures/common/visportal" 0 0 0
+( 0 0 -1 288 ) ( ( 0.03125 0 0 ) ( 0 0.03125 0.5 ) ) "textures/common/visportal" 0 0 0
+( 0 -1 0 1408 ) ( ( 0.03125 0 0 ) ( 0 0.03125 0 ) ) "textures/common/visportal" 0 0 0
+( -1 0 0 896 ) ( ( 0.03125 0 0 ) ( 0 0.03125 0 ) ) "textures/common/visportal" 0 0 0
+}
+}
+// primitive 514
+{
+brushDef3
+{
+( 0 0 1 -352 ) ( ( 0.03125 0 0 ) ( 0 0.03125 0 ) ) "textures/common/visportal" 0 0 0
+( 0 1 0 -1728 ) ( ( 0.03125 0 0 ) ( 0 0.03125 0 ) ) "textures/common/visportal" 0 0 0
+( 1 0 0 0 ) ( ( 0.03125 0 0 ) ( 0 0.03125 0 ) ) "textures/common/visportal" 0 0 0
+( 0 0 -1 320 ) ( ( 0.03125 0 0 ) ( 0 0.03125 0 ) ) "textures/common/visportal" 0 0 0
+( 0 -1 0 1408 ) ( ( 0.03125 0 0 ) ( 0 0.03125 0 ) ) "textures/common/visportal" 0 0 0
+( -1 0 0 -320 ) ( ( 0.03125 0 0 ) ( 0 0.03125 0 ) ) "textures/common/visportal" 0 0 0
+}
+}
+// primitive 515
+{
+brushDef3
+{
+( 0 0 1 -384 ) ( ( 0.03125 0 0 ) ( 0 0.03125 0 ) ) "textures/common/visportal" 0 0 0
+( 0 1 0 -1120 ) ( ( 0.03125 0 0 ) ( 0 0.03125 0 ) ) "textures/common/visportal" 0 0 0
+( 1 0 0 -256 ) ( ( 0.03125 0 0 ) ( 0 0.03125 0 ) ) "textures/common/visportal" 0 0 0
+( 0 0 -1 352 ) ( ( 0.03125 0 0 ) ( 0 0.03125 0 ) ) "textures/common/visportal" 0 0 0
+( 0 -1 0 1024 ) ( ( 0.03125 0 0 ) ( 0 0.03125 0 ) ) "textures/common/visportal" 0 0 0
+( -1 0 0 64 ) ( ( 0.03125 0 0 ) ( 0 0.03125 0 ) ) "textures/common/visportal" 0 0 0
+}
+}
+// primitive 516
+{
+brushDef3
+{
+( 0 0 1 -416 ) ( ( 0.03125 0 0 ) ( 0 0.03125 0 ) ) "textures/common/visportal" 0 0 0
+( 0 1 0 -96 ) ( ( 0.03125 0 0 ) ( 0 0.03125 0 ) ) "textures/common/visportal" 0 0 0
+( 1 0 0 -832 ) ( ( 0.03125 0 0 ) ( 0 0.03125 0 ) ) "textures/common/visportal" 0 0 0
+( 0 0 -1 384 ) ( ( 0.03125 0 0 ) ( 0 0.03125 0 ) ) "textures/common/visportal" 0 0 0
+( 0 -1 0 0 ) ( ( 0.03125 0 0 ) ( 0 0.03125 0 ) ) "textures/common/visportal" 0 0 0
+( -1 0 0 512 ) ( ( 0.03125 0 0 ) ( 0 0.03125 0 ) ) "textures/common/visportal" 0 0 0
+}
+}
+// primitive 517
+{
+brushDef3
+{
+( 0 0 1 -224 ) ( ( 0.03125 0 0 ) ( 0 0.03125 0 ) ) "textures/common/visportal" 0 0 0
+( 0 1 0 128 ) ( ( 0.03125 0 0 ) ( 0 0.03125 0 ) ) "textures/common/visportal" 0 0 0
+( 1 0 0 -128 ) ( ( 0.03125 0 0 ) ( 0 0.03125 0 ) ) "textures/common/visportal" 0 0 0
+( 0 0 -1 192 ) ( ( 0.03125 0 0 ) ( 0 0.03125 0 ) ) "textures/common/visportal" 0 0 0
+( 0 -1 0 -384 ) ( ( 0.03125 0 0 ) ( 0 0.03125 0 ) ) "textures/common/visportal" 0 0 0
+( -1 0 0 -128 ) ( ( 0.03125 0 0 ) ( 0 0.03125 0 ) ) "textures/common/visportal" 0 0 0
+}
+}
+// primitive 518
+{
+brushDef3
+{
+( 0 0 1 -352 ) ( ( 0.03125 0 0 ) ( 0 0.03125 0 ) ) "textures/common/visportal" 0 0 0
+( 0 1 0 192 ) ( ( 0.03125 0 0 ) ( 0 0.03125 0 ) ) "textures/common/visportal" 0 0 0
+( 1 0 0 -2048 ) ( ( 0.03125 0 0 ) ( 0 0.03125 0 ) ) "textures/common/visportal" 0 0 0
+( 0 0 -1 320 ) ( ( 0.03125 0 0 ) ( 0 0.03125 0 ) ) "textures/common/visportal" 0 0 0
+( 0 -1 0 -384 ) ( ( 0.03125 0 0 ) ( 0 0.03125 0 ) ) "textures/common/visportal" 0 0 0
+( -1 0 0 1728 ) ( ( 0.03125 0 0 ) ( 0 0.03125 0 ) ) "textures/common/visportal" 0 0 0
+}
+}
+// primitive 519
+{
+brushDef3
+{
+( 0 0 1 384 ) ( ( 0.03125 0 0 ) ( 0 0.03125 0 ) ) "textures/common/visportal" 0 0 0
+( 0 1 0 128 ) ( ( 0.03125 0 0 ) ( 0 0.03125 0 ) ) "textures/common/visportal" 0 0 0
+( 1 0 0 -1216 ) ( ( 0.03125 0 0 ) ( 0 0.03125 0 ) ) "textures/common/visportal" 0 0 0
+( 0 0 -1 -576 ) ( ( 0.03125 0 0 ) ( 0 0.03125 0 ) ) "textures/common/visportal" 0 0 0
+( 0 -1 0 -384 ) ( ( 0.03125 0 0 ) ( 0 0.03125 0.5 ) ) "textures/common/visportal" 0 0 0
+( -1 0 0 1184 ) ( ( 0.03125 0 0 ) ( 0 0.03125 0 ) ) "textures/common/visportal" 0 0 0
+}
+}
+// primitive 520
+{
+brushDef3
+{
+( 0 0 1 384 ) ( ( 0.03125 0 0 ) ( 0 0.03125 0 ) ) "textures/common/visportal" 0 0 0
+( 0 1 0 128 ) ( ( 0.03125 0 0 ) ( 0 0.03125 0 ) ) "textures/common/visportal" 0 0 0
+( 1 0 0 -544 ) ( ( 0.03125 0 0 ) ( 0 0.03125 0 ) ) "textures/common/visportal" 0 0 0
+( 0 0 -1 -576 ) ( ( 0.03125 0 0 ) ( 0 0.03125 0 ) ) "textures/common/visportal" 0 0 0
+( 0 -1 0 -384 ) ( ( 0.03125 0 0 ) ( 0 0.03125 0 ) ) "textures/common/visportal" 0 0 0
+( -1 0 0 512 ) ( ( 0.03125 0 0 ) ( 0 0.03125 0 ) ) "textures/common/visportal" 0 0 0
+}
+}
+// primitive 521
+{
+brushDef3
+{
+( 0 0 1 -320 ) ( ( 0.03125 0 0 ) ( 0 0.03125 0 ) ) "textures/common/visportal" 0 0 0
+( 0 1 0 -832 ) ( ( 0.03125 0 0 ) ( 0 0.03125 0 ) ) "textures/common/visportal" 0 0 0
+( 1 0 0 -1920 ) ( ( 0.03125 0 0 ) ( 0 0.03125 0 ) ) "textures/common/visportal" 0 0 0
+( 0 0 -1 96 ) ( ( 0.03125 0 0 ) ( 0 0.03125 0 ) ) "textures/common/visportal" 0 0 0
+( 0 -1 0 704 ) ( ( 0.03125 0 0 ) ( 0 0.03125 0 ) ) "textures/common/visportal" 0 0 0
+( -1 0 0 1888 ) ( ( 0.03125 0 0 ) ( 0 0.03125 0 ) ) "textures/common/visportal" 0 0 0
+}
+}
+// primitive 522
+{
+brushDef3
+{
+( 0 0 1 -256 ) ( ( 0.03125 0 0 ) ( 0 0.03125 0 ) ) "textures/common/visportal" 0 0 0
+( 0 1 0 -1312 ) ( ( 0.03125 0 0 ) ( 0 0.03125 0 ) ) "textures/common/visportal" 0 0 0
+( 1 0 0 320 ) ( ( 0.03125 0 0 ) ( 0 0.03125 0 ) ) "textures/common/visportal" 0 0 0
+( 0 0 -1 0 ) ( ( 0.03125 0 0 ) ( 0 0.03125 0 ) ) "textures/common/visportal" 0 0 0
+( 0 -1 0 1280 ) ( ( 0.03125 0 0 ) ( 0 0.03125 0 ) ) "textures/common/visportal" 0 0 0
+( -1 0 0 -448 ) ( ( 0.03125 0 0 ) ( 0 0.03125 0 ) ) "textures/common/visportal" 0 0 0
+}
+}
+// primitive 523
+{
+brushDef3
+{
+( 0 0 1 -384 ) ( ( 0.03125 0 0 ) ( 0 0.03125 0 ) ) "textures/common/visportal" 0 0 0
+( 0 1 0 -768 ) ( ( 0.03125 0 0 ) ( 0 0.03125 0 ) ) "textures/common/visportal" 0 0 0
+( 1 0 0 -832 ) ( ( 0.03125 0 0 ) ( 0 0.03125 0 ) ) "textures/common/visportal" 0 0 0
+( 0 0 -1 352 ) ( ( 0.03125 0 0 ) ( 0 0.03125 0 ) ) "textures/common/visportal" 0 0 0
+( 0 -1 0 512 ) ( ( 0.03125 0 0 ) ( 0 0.03125 0 ) ) "textures/common/visportal" 0 0 0
+( -1 0 0 512 ) ( ( 0.03125 0 0 ) ( 0 0.03125 0 ) ) "textures/common/visportal" 0 0 0
+}
+}
+// primitive 524
+{
+brushDef3
+{
+( 0 0 1 -192 ) ( ( 0.03125 0 0 ) ( 0 0.03125 0 ) ) "textures/common/visportal" 0 0 0
+( 0 1 0 -128 ) ( ( 0.03125 0 0 ) ( 0 0.03125 0 ) ) "textures/common/visportal" 0 0 0
+( 1 0 0 -1632 ) ( ( 0.03125 0 0 ) ( 0 0.03125 0 ) ) "textures/common/visportal" 0 0 0
+( 0 0 -1 96 ) ( ( 0.03125 0 0 ) ( 0 0.03125 0 ) ) "textures/common/visportal" 0 0 0
+( 0 -1 0 112 ) ( ( 0.03125 0 0.5 ) ( 0 0.03125 0 ) ) "textures/common/visportal" 0 0 0
+( -1 0 0 1568 ) ( ( 0.03125 0 0 ) ( 0 0.03125 0 ) ) "textures/common/visportal" 0 0 0
+}
+}
+// primitive 525
+{
+brushDef3
+{
+( 0 0 1 -48 ) ( ( 0.03125 0 0 ) ( 0 0.03125 0 ) ) "textures/common/visportal" 0 0 0
+( 0 1 0 -640 ) ( ( 0.03125 0 0 ) ( 0 0.03125 0 ) ) "textures/common/visportal" 0 0 0
+( 1 0 0 -1872 ) ( ( 0.03125 0 0 ) ( 0 0.03125 0 ) ) "textures/common/visportal" 0 0 0
+( 0 0 -1 -48 ) ( ( 0.03125 0 0 ) ( 0 0.03125 0 ) ) "textures/common/visportal" 0 0 0
+( 0 -1 0 576 ) ( ( 0.03125 0 0 ) ( 0 0.03125 0 ) ) "textures/common/visportal" 0 0 0
+( -1 0 0 1856 ) ( ( 0.03125 0 0 ) ( 0 0.03125 0 ) ) "textures/common/visportal" 0 0 0
+}
+}
+// primitive 526
+{
+brushDef3
+{
+( 0 0 1 -128 ) ( ( 0.03125 0 0 ) ( 0 0.03125 0 ) ) "textures/common/visportal" 0 0 0
+( 0 1 0 -528 ) ( ( 0.03125 0 0 ) ( 0 0.03125 0 ) ) "textures/common/visportal" 0 0 0
+( 1 0 0 -1856 ) ( ( 0.03125 0 0 ) ( 0 0.03125 0 ) ) "textures/common/visportal" 0 0 0
+( 0 0 -1 -48 ) ( ( 0.03125 0 0 ) ( 0 0.03125 0 ) ) "textures/common/visportal" 0 0 0
+( 0 -1 0 512 ) ( ( 0.03125 0 0 ) ( 0 0.03125 0 ) ) "textures/common/visportal" 0 0 0
+( -1 0 0 1728 ) ( ( 0.03125 0 0 ) ( 0 0.03125 0 ) ) "textures/common/visportal" 0 0 0
+}
+}
+// primitive 527
+{
+brushDef3
+{
+( 0 0 1 -128 ) ( ( 0.03125 0 0 ) ( 0 0.03125 0 ) ) "textures/common/visportal" 0 0 0
+( 0 1 0 -528 ) ( ( 0.03125 0 0 ) ( 0 0.03125 0 ) ) "textures/common/visportal" 0 0 0
+( 1 0 0 -1664 ) ( ( 0.03125 0 0 ) ( 0 0.03125 0 ) ) "textures/common/visportal" 0 0 0
+( 0 0 -1 -48 ) ( ( 0.03125 0 0 ) ( 0 0.03125 0 ) ) "textures/common/visportal" 0 0 0
+( 0 -1 0 512 ) ( ( 0.03125 0 0 ) ( 0 0.03125 0 ) ) "textures/common/visportal" 0 0 0
+( -1 0 0 1536 ) ( ( 0.03125 0 0 ) ( 0 0.03125 0 ) ) "textures/common/visportal" 0 0 0
+}
+}
+// primitive 528
+{
+brushDef3
+{
+( 0 0 1 -128 ) ( ( 0.03125 0 0 ) ( 0 0.03125 0 ) ) "textures/common/visportal" 0 0 0
+( 0 1 0 -528 ) ( ( 0.03125 0 0 ) ( 0 0.03125 0 ) ) "textures/common/visportal" 0 0 0
+( 1 0 0 -1472 ) ( ( 0.03125 0 0 ) ( 0 0.03125 0 ) ) "textures/common/visportal" 0 0 0
+( 0 0 -1 -48 ) ( ( 0.03125 0 0 ) ( 0 0.03125 0 ) ) "textures/common/visportal" 0 0 0
+( 0 -1 0 512 ) ( ( 0.03125 0 0 ) ( 0 0.03125 0 ) ) "textures/common/visportal" 0 0 0
+( -1 0 0 1344 ) ( ( 0.03125 0 0 ) ( 0 0.03125 0 ) ) "textures/common/visportal" 0 0 0
+}
+}
+// primitive 529
+{
+brushDef3
+{
+( 0 0 1 -80 ) ( ( 0.03125 0 0 ) ( 0 0.03125 63.5 ) ) "textures/common/visportal" 0 0 0
+( 0 1 0 -448 ) ( ( 0.03125 0 0 ) ( 0 0.03125 0 ) ) "textures/common/visportal" 0 0 0
+( 1 0 0 -16 ) ( ( 0.03125 0 0 ) ( 0 0.03125 0 ) ) "textures/common/visportal" 0 0 0
+( 0 0 -1 -48 ) ( ( 0.03125 0 0 ) ( 0 0.03125 0 ) ) "textures/common/visportal" 0 0 0
+( 0 -1 0 384 ) ( ( 0.03125 0 0 ) ( 0 0.03125 0 ) ) "textures/common/visportal" 0 0 0
+( -1 0 0 0 ) ( ( 0.03125 0 0 ) ( 0 0.03125 0 ) ) "textures/common/visportal" 0 0 0
+}
+}
+// primitive 530
+{
+brushDef3
+{
+( 0 0 1 -240 ) ( ( 0.03125 0 0 ) ( 0 0.03125 0 ) ) "textures/common/visportal" 0 0 0
+( 0 1 0 -1216 ) ( ( 0.03125 0 0 ) ( 0 0.03125 0 ) ) "textures/common/visportal" 0 0 0
+( 1 0 0 -1104 ) ( ( 0.03125 0 0 ) ( 0 0.03125 0 ) ) "textures/common/visportal" 0 0 0
+( 0 0 -1 128 ) ( ( 0.03125 0 0 ) ( 0 0.03125 0 ) ) "textures/common/visportal" 0 0 0
+( 0 -1 0 1152 ) ( ( 0.03125 0 0 ) ( 0 0.03125 0 ) ) "textures/common/visportal" 0 0 0
+( -1 0 0 1088 ) ( ( 0.03125 0 0 ) ( 0 0.03125 0 ) ) "textures/common/visportal" 0 0 0
+}
+}
+// primitive 531
+{
+brushDef3
+{
+( 0 0 1 -240 ) ( ( 0.03125 0 0 ) ( 0 0.03125 0 ) ) "textures/common/visportal" 0 0 0
+( 0 1 0 -1216 ) ( ( 0.03125 0 0 ) ( 0 0.03125 0 ) ) "textures/common/visportal" 0 0 0
+( 1 0 0 -1344 ) ( ( 0.03125 0 0 ) ( 0 0.03125 0 ) ) "textures/common/visportal" 0 0 0
+( 0 0 -1 128 ) ( ( 0.03125 0 0 ) ( 0 0.03125 0 ) ) "textures/common/visportal" 0 0 0
+( 0 -1 0 1152 ) ( ( 0.03125 0 0 ) ( 0 0.03125 0 ) ) "textures/common/visportal" 0 0 0
+( -1 0 0 1328 ) ( ( 0.03125 0 0 ) ( 0 0.03125 0 ) ) "textures/common/visportal" 0 0 0
+}
+}
+// primitive 532
+{
+brushDef3
+{
+( 0 0 1 -48 ) ( ( 0.03125 0 0 ) ( 0 0.03125 0 ) ) "textures/common/visportal" 0 0 0
+( 0 1 0 -1088 ) ( ( 0.03125 0 0 ) ( 0 0.03125 0 ) ) "textures/common/visportal" 0 0 0
+( 1 0 0 -1344 ) ( ( 0.03125 0 0 ) ( 0 0.03125 0 ) ) "textures/common/visportal" 0 0 0
+( 0 0 -1 -64 ) ( ( 0.03125 0 0 ) ( 0 0.03125 0 ) ) "textures/common/visportal" 0 0 0
+( 0 -1 0 1024 ) ( ( 0.03125 0 0 ) ( 0 0.03125 0 ) ) "textures/common/visportal" 0 0 0
+( -1 0 0 1328 ) ( ( 0.03125 0 0 ) ( 0 0.03125 0 ) ) "textures/common/visportal" 0 0 0
+}
+}
+// primitive 533
+{
+brushDef3
+{
+( 0 0 1 -48 ) ( ( 0.03125 0 0 ) ( 0 0.03125 0 ) ) "textures/common/visportal" 0 0 0
+( 0 1 0 -1344 ) ( ( 0.03125 0 0 ) ( 0 0.03125 0 ) ) "textures/common/visportal" 0 0 0
+( 1 0 0 -1088 ) ( ( 0.03125 0 0 ) ( 0 0.03125 0 ) ) "textures/common/visportal" 0 0 0
+( 0 0 -1 32 ) ( ( 0.03125 0 0 ) ( 0 0.03125 63.5 ) ) "textures/common/visportal" 0 0 0
+( 0 -1 0 960 ) ( ( 0.03125 0 0.5 ) ( 0 0.03125 0 ) ) "textures/common/visportal" 0 0 0
+( -1 0 0 704 ) ( ( 0.03125 0 0 ) ( 0 0.03125 0 ) ) "textures/common/visportal" 0 0 0
+}
+}
+// primitive 534
+{
+brushDef3
+{
+( 0 0 1 -240 ) ( ( 0.03125 0 0 ) ( 0 0.03125 0 ) ) "textures/common/visportal" 0 0 0
+( 0 1 0 -768 ) ( ( 0.03125 0 0 ) ( 0 0.03125 0 ) ) "textures/common/visportal" 0 0 0
+( 1 0 0 64 ) ( ( 0.03125 0 0 ) ( 0 0.03125 0 ) ) "textures/common/visportal" 0 0 0
+( 0 0 -1 128 ) ( ( 0.03125 0 0 ) ( 0 0.03125 0 ) ) "textures/common/visportal" 0 0 0
+( 0 -1 0 752 ) ( ( 0.03125 0 0 ) ( 0 0.03125 1.5 ) ) "textures/common/visportal" 0 0 0
+( -1 0 0 -128 ) ( ( 0.03125 0 0 ) ( 0 0.03125 0 ) ) "textures/common/visportal" 0 0 0
+}
+}
+// primitive 535
+{
+brushDef3
+{
+( 0 0 1 -192 ) ( ( 0.03125 0 0 ) ( 0 0.03125 0 ) ) "textures/common/visportal" 0 0 0
+( 0 1 0 0 ) ( ( 0.03125 0 0 ) ( 0 0.03125 0 ) ) "textures/common/visportal" 0 0 0
+( 1 0 0 128 ) ( ( 0.03125 0 0 ) ( 0 0.03125 0 ) ) "textures/common/visportal" 0 0 0
+( 0 0 -1 0 ) ( ( 0.03125 0 0 ) ( 0 0.03125 0 ) ) "textures/common/visportal" 0 0 0
+( 0 -1 0 -384 ) ( ( 0.03125 0 0.5 ) ( 0 0.03125 0 ) ) "textures/common/visportal" 0 0 0
+( -1 0 0 -144 ) ( ( 0.03125 0 0 ) ( 0 0.03125 0 ) ) "textures/common/visportal" 0 0 0
+}
+}
+// primitive 536
+{
+brushDef3
+{
+( 0 0 1 -192 ) ( ( 0.03125 0 0 ) ( 0 0.03125 0 ) ) "textures/common/visportal" 0 0 0
+( 0 1 0 -64 ) ( ( 0.03125 0 0 ) ( 0 0.03125 0 ) ) "textures/common/visportal" 0 0 0
+( 1 0 0 -256 ) ( ( 0.03125 0 0 ) ( 0 0.03125 0 ) ) "textures/common/visportal" 0 0 0
+( 0 0 -1 0 ) ( ( 0.03125 0 0 ) ( 0 0.03125 0 ) ) "textures/common/visportal" 0 0 0
+( 0 -1 0 48 ) ( ( 0.03125 0 63.5 ) ( 0 0.03125 0 ) ) "textures/common/visportal" 0 0 0
+( -1 0 0 -128 ) ( ( 0.03125 0 0 ) ( 0 0.03125 0 ) ) "textures/common/visportal" 0 0 0
+}
+}
+// primitive 537
+{
+brushDef3
+{
+( 0 0 1 -192 ) ( ( 0.03125 0 0 ) ( 0 0.03125 0 ) ) "textures/common/visportal" 0 0 0
+( 0 1 0 -192 ) ( ( 0.03125 0 0 ) ( 0 0.03125 0 ) ) "textures/common/visportal" 0 0 0
+( 1 0 0 128 ) ( ( 0.03125 0 0 ) ( 0 0.03125 0 ) ) "textures/common/visportal" 0 0 0
+( 0 0 -1 0 ) ( ( 0.03125 0 0 ) ( 0 0.03125 0 ) ) "textures/common/visportal" 0 0 0
+( 0 -1 0 64 ) ( ( 0.03125 0 0 ) ( 0 0.03125 0 ) ) "textures/common/visportal" 0 0 0
+( -1 0 0 -144 ) ( ( 0.03125 0 0.5 ) ( 0 0.03125 0 ) ) "textures/common/visportal" 0 0 0
+}
+}
 }
 // entity 1
 {
@@ -5840,7 +6488,7 @@ brushDef3
 "classname" "light"
 "name" "light_3"
 "_color" "0.373 0.373 0.373"
-"light_center" "208 48 80"
+"light_center" "224 48 96"
 "light_radius" "320 320 320"
 "nodiffuse" "0"
 "noshadows" "0"
@@ -5861,7 +6509,7 @@ brushDef3
 "classname" "light"
 "name" "light_8"
 "_color" "0.251 0.251 0.251"
-"light_center" "0 -256 0"
+"light_center" "0 -320 0"
 "light_radius" "320 420 320"
 "nodiffuse" "0"
 "noshadows" "0"
@@ -6044,7 +6692,7 @@ brushDef3
 "classname" "light"
 "name" "light_21"
 "_color" "1.000 1.000 1.000"
-"light_center" "-20 12 -64"
+"light_center" "92 -84 48"
 "light_radius" "364 208 168"
 "nodiffuse" "0"
 "noshadows" "0"
