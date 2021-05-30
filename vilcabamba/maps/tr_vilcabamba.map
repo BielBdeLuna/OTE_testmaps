@@ -4597,7 +4597,7 @@ brushDef3
 ( 0 0 1 -512 ) ( ( 0.0625 0 0 ) ( 0 0.0625 0 ) ) "textures/dev/16x16_gray" 0 0 0
 ( 0 1 0 -1792 ) ( ( 0.0625 0 0 ) ( 0 0.0625 0 ) ) "textures/dev/16x16_gray" 0 0 0
 ( 1 0 0 320 ) ( ( 0.0625 0 0 ) ( 0 0.0625 0 ) ) "textures/dev/16x16_gray" 0 0 0
-( 0 0 -1 320 ) ( ( 0.0625 0 0 ) ( 0 0.0625 0 ) ) "textures/dev/16x16_gray" 0 0 0
+( 0 0 -1 256 ) ( ( 0.0625 0 0 ) ( 0 0.0625 0 ) ) "textures/dev/16x16_gray" 0 0 0
 ( 0 -1 0 192 ) ( ( 0.0625 0 0 ) ( 0 0.0625 0 ) ) "textures/dev/16x16_gray" 0 0 0
 ( -1 0 0 -512 ) ( ( 0.0625 0 0 ) ( 0 0.0625 0 ) ) "textures/dev/16x16_gray" 0 0 0
 }
@@ -4990,48 +4990,48 @@ brushDef3
 {
 brushDef3
 {
-( 0 0 1 -320 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/colors/black" 0 0 0
-( 0 1 0 -1856 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/colors/black" 0 0 0
-( 1 0 0 0 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/colors/black" 0 0 0
-( 0 0 -1 -128 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/colors/black" 0 0 0
-( 0 -1 0 1792 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/colors/black" 0 0 0
-( -1 0 0 -320 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/colors/black" 0 0 0
+( 0 0 1 -320 ) ( ( 0.0625 0 0 ) ( 0 0.0625 0 ) ) "textures/dev/16x16_gray" 0 0 0
+( 0 1 0 -1856 ) ( ( 0.0625 0 0 ) ( 0 0.0625 0 ) ) "textures/dev/16x16_gray" 0 0 0
+( 1 0 0 0 ) ( ( 0.0625 0 0 ) ( 0 0.0625 0 ) ) "textures/dev/16x16_gray" 0 0 0
+( 0 0 -1 -128 ) ( ( 0.0625 0 0 ) ( 0 0.0625 0 ) ) "textures/dev/16x16_gray" 0 0 0
+( 0 -1 0 1792 ) ( ( 0.0625 0 0 ) ( 0 0.0625 0 ) ) "textures/dev/16x16_gray" 0 0 0
+( -1 0 0 -320 ) ( ( 0.0625 0 0 ) ( 0 0.0625 0 ) ) "textures/dev/16x16_gray" 0 0 0
 }
 }
 // primitive 416
 {
 brushDef3
 {
-( 0 0 1 -320 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/colors/black" 0 0 0
-( 0 1 0 -1728 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/colors/black" 0 0 0
-( 1 0 0 -1280 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/colors/black" 0 0 0
-( 0 0 -1 -128 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/colors/black" 0 0 0
-( 0 -1 0 1664 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/colors/black" 0 0 0
-( -1 0 0 896 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/colors/black" 0 0 0
+( 0 0 1 -320 ) ( ( 0.0625 0 0 ) ( 0 0.0625 0 ) ) "textures/dev/16x16_gray" 0 0 0
+( 0 1 0 -1728 ) ( ( 0.0625 0 0 ) ( 0 0.0625 0 ) ) "textures/dev/16x16_gray" 0 0 0
+( 1 0 0 -1280 ) ( ( 0.0625 0 0 ) ( 0 0.0625 0 ) ) "textures/dev/16x16_gray" 0 0 0
+( 0 0 -1 -128 ) ( ( 0.0625 0 0 ) ( 0 0.0625 0 ) ) "textures/dev/16x16_gray" 0 0 0
+( 0 -1 0 1664 ) ( ( 0.0625 0 0 ) ( 0 0.0625 0 ) ) "textures/dev/16x16_gray" 0 0 0
+( -1 0 0 896 ) ( ( 0.0625 0 0 ) ( 0 0.0625 0 ) ) "textures/dev/16x16_gray" 0 0 0
 }
 }
 // primitive 417
 {
 brushDef3
 {
-( 0 0 1 -512 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/colors/black" 0 0 0
-( 0 1 0 -1728 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/colors/black" 0 0 0
-( 1 0 0 -2176 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/colors/black" 0 0 0
-( 0 0 -1 192 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/colors/black" 0 0 0
-( 0 -1 0 1664 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/colors/black" 0 0 0
-( -1 0 0 1280 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/colors/black" 0 0 0
+( 0 0 1 -512 ) ( ( 0.0625 0 0 ) ( 0 0.0625 0 ) ) "textures/dev/16x16_gray" 0 0 0
+( 0 1 0 -1728 ) ( ( 0.0625 0 0 ) ( 0 0.0625 0 ) ) "textures/dev/16x16_gray" 0 0 0
+( 1 0 0 -2176 ) ( ( 0.0625 0 0 ) ( 0 0.0625 0 ) ) "textures/dev/16x16_gray" 0 0 0
+( 0 0 -1 192 ) ( ( 0.0625 0 0 ) ( 0 0.0625 0 ) ) "textures/dev/16x16_gray" 0 0 0
+( 0 -1 0 1664 ) ( ( 0.0625 0 0 ) ( 0 0.0625 0 ) ) "textures/dev/16x16_gray" 0 0 0
+( -1 0 0 1280 ) ( ( 0.0625 0 0 ) ( 0 0.0625 0 ) ) "textures/dev/16x16_gray" 0 0 0
 }
 }
 // primitive 418
 {
 brushDef3
 {
-( 0 0 1 -512 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/colors/black" 0 0 0
-( 0 1 0 -1728 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/colors/black" 0 0 0
-( 1 0 0 -2432 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/colors/black" 0 0 0
-( 0 0 -1 256 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/colors/black" 0 0 0
-( 0 -1 0 -512 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/colors/black" 0 0 0
-( -1 0 0 2176 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/colors/black" 0 0 0
+( 0 0 1 -512 ) ( ( 0.0625 0 0 ) ( 0 0.0625 0 ) ) "textures/dev/16x16_gray" 0 0 0
+( 0 1 0 -1728 ) ( ( 0.0625 0 0 ) ( 0 0.0625 0 ) ) "textures/dev/16x16_gray" 0 0 0
+( 1 0 0 -2432 ) ( ( 0.0625 0 0 ) ( 0 0.0625 0 ) ) "textures/dev/16x16_gray" 0 0 0
+( 0 0 -1 256 ) ( ( 0.0625 0 0 ) ( 0 0.0625 0 ) ) "textures/dev/16x16_gray" 0 0 0
+( 0 -1 0 -512 ) ( ( 0.0625 0 0 ) ( 0 0.0625 0 ) ) "textures/dev/16x16_gray" 0 0 0
+( -1 0 0 2176 ) ( ( 0.0625 0 0 ) ( 0 0.0625 0 ) ) "textures/dev/16x16_gray" 0 0 0
 }
 }
 // primitive 419
@@ -5050,96 +5050,96 @@ brushDef3
 {
 brushDef3
 {
-( 0 0 1 -320 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/colors/black" 0 0 0
-( 0 1 0 512 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/colors/black" 0 0 0
-( 1 0 0 -192 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/colors/black" 0 0 0
-( 0 0 -1 256 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/colors/black" 0 0 0
-( 0 -1 0 -800 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/colors/black" 0 0 0
-( -1 0 0 -576 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/colors/black" 0 0 0
+( 0 0 1 -320 ) ( ( 0.0625 0 0 ) ( 0 0.0625 0 ) ) "textures/dev/16x16_gray" 0 0 0
+( 0 1 0 512 ) ( ( 0.0625 0 0 ) ( 0 0.0625 0 ) ) "textures/dev/16x16_gray" 0 0 0
+( 1 0 0 -192 ) ( ( 0.0625 0 0 ) ( 0 0.0625 0 ) ) "textures/dev/16x16_gray" 0 0 0
+( 0 0 -1 256 ) ( ( 0.0625 0 0 ) ( 0 0.0625 0 ) ) "textures/dev/16x16_gray" 0 0 0
+( 0 -1 0 -800 ) ( ( 0.0625 0 0 ) ( 0 0.0625 0 ) ) "textures/dev/16x16_gray" 0 0 0
+( -1 0 0 -1024 ) ( ( 0.0625 0 0 ) ( 0 0.0625 0 ) ) "textures/dev/16x16_gray" 0 0 0
 }
 }
 // primitive 421
 {
 brushDef3
 {
-( 0 0 1 -320 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/colors/black" 0 0 0
-( 0 1 0 64 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/colors/black" 0 0 0
-( 1 0 0 448 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/colors/black" 0 0 0
-( 0 0 -1 256 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/colors/black" 0 0 0
-( 0 -1 0 -192 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/colors/black" 0 0 0
-( -1 0 0 -512 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/colors/black" 0 0 0
+( 0 0 1 -320 ) ( ( 0.0625 0 0 ) ( 0 0.0625 0 ) ) "textures/dev/16x16_gray" 0 0 0
+( 0 1 0 64 ) ( ( 0.0625 0 0 ) ( 0 0.0625 0 ) ) "textures/dev/16x16_gray" 0 0 0
+( 1 0 0 448 ) ( ( 0.0625 0 0 ) ( 0 0.0625 0 ) ) "textures/dev/16x16_gray" 0 0 0
+( 0 0 -1 256 ) ( ( 0.0625 0 0 ) ( 0 0.0625 0 ) ) "textures/dev/16x16_gray" 0 0 0
+( 0 -1 0 -192 ) ( ( 0.0625 0 0 ) ( 0 0.0625 0 ) ) "textures/dev/16x16_gray" 0 0 0
+( -1 0 0 -512 ) ( ( 0.0625 0 0 ) ( 0 0.0625 0 ) ) "textures/dev/16x16_gray" 0 0 0
 }
 }
 // primitive 422
 {
 brushDef3
 {
-( 0 0 1 -320 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/colors/black" 0 0 0
-( 0 1 0 -128 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/colors/black" 0 0 0
-( 1 0 0 512 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/colors/black" 0 0 0
-( 0 0 -1 256 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/colors/black" 0 0 0
-( 0 -1 0 -512 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/colors/black" 0 0 0
-( -1 0 0 -576 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/colors/black" 0 0 0
+( 0 0 1 -320 ) ( ( 0.0625 0 0 ) ( 0 0.0625 0 ) ) "textures/dev/16x16_gray" 0 0 0
+( 0 1 0 -128 ) ( ( 0.0625 0 0 ) ( 0 0.0625 0 ) ) "textures/dev/16x16_gray" 0 0 0
+( 1 0 0 512 ) ( ( 0.0625 0 0 ) ( 0 0.0625 0 ) ) "textures/dev/16x16_gray" 0 0 0
+( 0 0 -1 256 ) ( ( 0.0625 0 0 ) ( 0 0.0625 0 ) ) "textures/dev/16x16_gray" 0 0 0
+( 0 -1 0 -512 ) ( ( 0.0625 0 0 ) ( 0 0.0625 0 ) ) "textures/dev/16x16_gray" 0 0 0
+( -1 0 0 -1024 ) ( ( 0.0625 0 0 ) ( 0 0.0625 0 ) ) "textures/dev/16x16_gray" 0 0 0
 }
 }
 // primitive 423
 {
 brushDef3
 {
-( 0 0 1 -512 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/colors/black" 0 0 0
-( 0 1 0 -1856 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/colors/black" 0 0 0
-( 1 0 0 512 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/colors/black" 0 0 0
-( 0 0 -1 256 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/colors/black" 0 0 0
-( 0 -1 0 128 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/colors/black" 0 0 0
-( -1 0 0 -576 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/colors/black" 0 0 0
+( 0 0 1 -512 ) ( ( 0.0625 0 0 ) ( 0 0.0625 0 ) ) "textures/dev/16x16_gray" 0 0 0
+( 0 1 0 -1856 ) ( ( 0.0625 0 0 ) ( 0 0.0625 0 ) ) "textures/dev/16x16_gray" 0 0 0
+( 1 0 0 512 ) ( ( 0.0625 0 0 ) ( 0 0.0625 0 ) ) "textures/dev/16x16_gray" 0 0 0
+( 0 0 -1 256 ) ( ( 0.0625 0 0 ) ( 0 0.0625 0 ) ) "textures/dev/16x16_gray" 0 0 0
+( 0 -1 0 128 ) ( ( 0.0625 0 0 ) ( 0 0.0625 0 ) ) "textures/dev/16x16_gray" 0 0 0
+( -1 0 0 -576 ) ( ( 0.0625 0 0 ) ( 0 0.0625 0 ) ) "textures/dev/16x16_gray" 0 0 0
 }
 }
 // primitive 424
 {
 brushDef3
 {
-( 0 0 1 -512 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/colors/black" 0 0 0
-( 0 1 0 -1856 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/colors/black" 0 0 0
-( 1 0 0 320 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/colors/black" 0 0 0
-( 0 0 -1 256 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/colors/black" 0 0 0
-( 0 -1 0 1792 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/colors/black" 0 0 0
-( -1 0 0 -512 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/colors/black" 0 0 0
+( 0 0 1 -512 ) ( ( 0.0625 0 0 ) ( 0 0.0625 0 ) ) "textures/dev/16x16_gray" 0 0 0
+( 0 1 0 -1856 ) ( ( 0.0625 0 0 ) ( 0 0.0625 0 ) ) "textures/dev/16x16_gray" 0 0 0
+( 1 0 0 320 ) ( ( 0.0625 0 0 ) ( 0 0.0625 0 ) ) "textures/dev/16x16_gray" 0 0 0
+( 0 0 -1 256 ) ( ( 0.0625 0 0 ) ( 0 0.0625 0 ) ) "textures/dev/16x16_gray" 0 0 0
+( 0 -1 0 1792 ) ( ( 0.0625 0 0 ) ( 0 0.0625 0 ) ) "textures/dev/16x16_gray" 0 0 0
+( -1 0 0 -512 ) ( ( 0.0625 0 0 ) ( 0 0.0625 0 ) ) "textures/dev/16x16_gray" 0 0 0
 }
 }
 // primitive 425
 {
 brushDef3
 {
-( 0 0 1 -512 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/colors/black" 0 0 0
-( 0 1 0 -1728 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/colors/black" 0 0 0
-( 1 0 0 -896 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/colors/black" 0 0 0
-( 0 0 -1 256 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/colors/black" 0 0 0
-( 0 -1 0 1664 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/colors/black" 0 0 0
-( -1 0 0 320 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/colors/black" 0 0 0
+( 0 0 1 -512 ) ( ( 0.0625 0 0 ) ( 0 0.0625 0 ) ) "textures/dev/16x16_gray" 0 0 0
+( 0 1 0 -1728 ) ( ( 0.0625 0 0 ) ( 0 0.0625 0 ) ) "textures/dev/16x16_gray" 0 0 0
+( 1 0 0 -896 ) ( ( 0.0625 0 0 ) ( 0 0.0625 0 ) ) "textures/dev/16x16_gray" 0 0 0
+( 0 0 -1 256 ) ( ( 0.0625 0 0 ) ( 0 0.0625 0 ) ) "textures/dev/16x16_gray" 0 0 0
+( 0 -1 0 1664 ) ( ( 0.0625 0 0 ) ( 0 0.0625 0 ) ) "textures/dev/16x16_gray" 0 0 0
+( -1 0 0 320 ) ( ( 0.0625 0 0 ) ( 0 0.0625 0 ) ) "textures/dev/16x16_gray" 0 0 0
 }
 }
 // primitive 426
 {
 brushDef3
 {
-( 0 0 1 -512 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/colors/black" 0 0 0
-( 0 1 0 -1856 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/colors/black" 0 0 0
-( 1 0 0 -320 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/colors/black" 0 0 0
-( 0 0 -1 256 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/colors/black" 0 0 0
-( 0 -1 0 1792 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/colors/black" 0 0 0
-( -1 0 0 0 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/colors/black" 0 0 0
+( 0 0 1 -512 ) ( ( 0.0625 0 0 ) ( 0 0.0625 0 ) ) "textures/dev/16x16_gray" 0 0 0
+( 0 1 0 -1856 ) ( ( 0.0625 0 0 ) ( 0 0.0625 0 ) ) "textures/dev/16x16_gray" 0 0 0
+( 1 0 0 -320 ) ( ( 0.0625 0 0 ) ( 0 0.0625 0 ) ) "textures/dev/16x16_gray" 0 0 0
+( 0 0 -1 256 ) ( ( 0.0625 0 0 ) ( 0 0.0625 0 ) ) "textures/dev/16x16_gray" 0 0 0
+( 0 -1 0 1792 ) ( ( 0.0625 0 0 ) ( 0 0.0625 0 ) ) "textures/dev/16x16_gray" 0 0 0
+( -1 0 0 0 ) ( ( 0.0625 0 0 ) ( 0 0.0625 0 ) ) "textures/dev/16x16_gray" 0 0 0
 }
 }
 // primitive 427
 {
 brushDef3
 {
-( 0 0 1 -512 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/colors/black" 0 0 0
-( 0 1 0 -1792 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/colors/black" 0 0 0
-( 1 0 0 -320 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/colors/black" 0 0 0
-( 0 0 -1 320 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/colors/black" 0 0 0
-( 0 -1 0 1664 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/colors/black" 0 0 0
-( -1 0 0 256 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/colors/black" 0 0 0
+( 0 0 1 -512 ) ( ( 0.0625 0 0 ) ( 0 0.0625 0 ) ) "textures/dev/16x16_gray" 0 0 0
+( 0 1 0 -1792 ) ( ( 0.0625 0 0 ) ( 0 0.0625 0 ) ) "textures/dev/16x16_gray" 0 0 0
+( 1 0 0 -320 ) ( ( 0.0625 0 0 ) ( 0 0.0625 0 ) ) "textures/dev/16x16_gray" 0 0 0
+( 0 0 -1 320 ) ( ( 0.0625 0 0 ) ( 0 0.0625 0 ) ) "textures/dev/16x16_gray" 0 0 0
+( 0 -1 0 1664 ) ( ( 0.0625 0 0 ) ( 0 0.0625 0 ) ) "textures/dev/16x16_gray" 0 0 0
+( -1 0 0 256 ) ( ( 0.0625 0 0 ) ( 0 0.0625 0 ) ) "textures/dev/16x16_gray" 0 0 0
 }
 }
 // primitive 428
@@ -5147,10 +5147,10 @@ brushDef3
 brushDef3
 {
 ( 0 0 1 -512 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/bl/skies/greatest_sky_evaaar" 0 0 0
-( 0 1 0 -1856 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/bl/skies/greatest_sky_evaaar" 0 0 0
+( 0 1 0 -1920 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/bl/skies/greatest_sky_evaaar" 0 0 0
 ( 1 0 0 0 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/bl/skies/greatest_sky_evaaar" 0 0 0
 ( 0 0 -1 320 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/bl/skies/greatest_sky_evaaar" 0 0 0
-( 0 -1 0 1792 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/bl/skies/greatest_sky_evaaar" 0 0 0
+( 0 -1 0 1856 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/bl/skies/greatest_sky_evaaar" 0 0 0
 ( -1 0 0 -320 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/bl/skies/greatest_sky_evaaar" 0 0 0
 }
 }
@@ -5159,10 +5159,10 @@ brushDef3
 brushDef3
 {
 ( 0 0 1 -512 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/bl/skies/greatest_sky_evaaar" 0 0 0
-( 0 1 0 -1728 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/bl/skies/greatest_sky_evaaar" 0 0 0
+( 0 1 0 -1792 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/bl/skies/greatest_sky_evaaar" 0 0 0
 ( 1 0 0 -1280 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/bl/skies/greatest_sky_evaaar" 0 0 0
 ( 0 0 -1 320 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/bl/skies/greatest_sky_evaaar" 0 0 0
-( 0 -1 0 1664 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/bl/skies/greatest_sky_evaaar" 0 0 0
+( 0 -1 0 1728 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/bl/skies/greatest_sky_evaaar" 0 0 0
 ( -1 0 0 896 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/bl/skies/greatest_sky_evaaar" 0 0 0
 }
 }
@@ -5172,10 +5172,10 @@ brushDef3
 {
 ( 0 0 1 -768 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/bl/skies/greatest_sky_evaaar" 0 0 0
 ( 0 1 0 -1728 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/bl/skies/greatest_sky_evaaar" 0 0 0
-( 1 0 0 -2432 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/bl/skies/greatest_sky_evaaar" 0 0 0
+( 1 0 0 -2496 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/bl/skies/greatest_sky_evaaar" 0 0 0
 ( 0 0 -1 512 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/bl/skies/greatest_sky_evaaar" 0 0 0
 ( 0 -1 0 -800 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/bl/skies/greatest_sky_evaaar" 0 0 0
-( -1 0 0 2368 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/bl/skies/greatest_sky_evaaar" 0 0 0
+( -1 0 0 2432 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/bl/skies/greatest_sky_evaaar" 0 0 0
 }
 }
 // primitive 431
@@ -5183,11 +5183,11 @@ brushDef3
 brushDef3
 {
 ( 0 0 1 -768 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/bl/skies/greatest_sky_evaaar" 0 0 0
-( 0 1 0 -1728 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/bl/skies/greatest_sky_evaaar" 0 0 0
-( 1 0 0 -2368 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/bl/skies/greatest_sky_evaaar" 0 0 0
+( 0 1 0 -1792 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/bl/skies/greatest_sky_evaaar" 0 0 0
+( 1 0 0 -2432 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/bl/skies/greatest_sky_evaaar" 0 0 0
 ( 0 0 -1 512 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/bl/skies/greatest_sky_evaaar" 0 0 0
-( 0 -1 0 1664 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/bl/skies/greatest_sky_evaaar" 0 0 0
-( -1 0 0 256 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/bl/skies/greatest_sky_evaaar" 0 0 0
+( 0 -1 0 1728 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/bl/skies/greatest_sky_evaaar" 0 0 0
+( -1 0 0 320 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/bl/skies/greatest_sky_evaaar" 0 0 0
 }
 }
 // primitive 432
@@ -5196,10 +5196,10 @@ brushDef3
 {
 ( 0 0 1 -768 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/bl/skies/greatest_sky_evaaar" 0 0 0
 ( 0 1 0 -1856 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/bl/skies/greatest_sky_evaaar" 0 0 0
-( 1 0 0 -320 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/bl/skies/greatest_sky_evaaar" 0 0 0
+( 1 0 0 -384 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/bl/skies/greatest_sky_evaaar" 0 0 0
 ( 0 0 -1 512 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/bl/skies/greatest_sky_evaaar" 0 0 0
-( 0 -1 0 1728 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/bl/skies/greatest_sky_evaaar" 0 0 0
-( -1 0 0 256 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/bl/skies/greatest_sky_evaaar" 0 0 0
+( 0 -1 0 1792 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/bl/skies/greatest_sky_evaaar" 0 0 0
+( -1 0 0 320 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/bl/skies/greatest_sky_evaaar" 0 0 0
 }
 }
 // primitive 433
@@ -5207,10 +5207,10 @@ brushDef3
 brushDef3
 {
 ( 0 0 1 -768 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/bl/skies/greatest_sky_evaaar" 0 0 0
-( 0 1 0 -1856 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/bl/skies/greatest_sky_evaaar" 0 0 0
-( 1 0 0 -256 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/bl/skies/greatest_sky_evaaar" 0 0 0
+( 0 1 0 -1920 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/bl/skies/greatest_sky_evaaar" 0 0 0
+( 1 0 0 -320 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/bl/skies/greatest_sky_evaaar" 0 0 0
 ( 0 0 -1 512 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/bl/skies/greatest_sky_evaaar" 0 0 0
-( 0 -1 0 1792 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/bl/skies/greatest_sky_evaaar" 0 0 0
+( 0 -1 0 1856 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/bl/skies/greatest_sky_evaaar" 0 0 0
 ( -1 0 0 -576 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/bl/skies/greatest_sky_evaaar" 0 0 0
 }
 }
@@ -5219,11 +5219,11 @@ brushDef3
 brushDef3
 {
 ( 0 0 1 -768 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/bl/skies/greatest_sky_evaaar" 0 0 0
-( 0 1 0 -1792 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/bl/skies/greatest_sky_evaaar" 0 0 0
-( 1 0 0 512 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/bl/skies/greatest_sky_evaaar" 0 0 0
+( 0 1 0 -1856 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/bl/skies/greatest_sky_evaaar" 0 0 0
+( 1 0 0 576 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/bl/skies/greatest_sky_evaaar" 0 0 0
 ( 0 0 -1 512 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/bl/skies/greatest_sky_evaaar" 0 0 0
-( 0 -1 0 -800 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/bl/skies/greatest_sky_evaaar" 0 0 0
-( -1 0 0 -576 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/bl/skies/greatest_sky_evaaar" 0 0 0
+( 0 -1 0 192 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/bl/skies/greatest_sky_evaaar" 0 0 0
+( -1 0 0 -640 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/bl/skies/greatest_sky_evaaar" 0 0 0
 }
 }
 // primitive 435
@@ -5231,23 +5231,23 @@ brushDef3
 brushDef3
 {
 ( 0 0 1 -768 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/bl/skies/greatest_sky_evaaar" 0 0 0
-( 0 1 0 736 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/bl/skies/greatest_sky_evaaar" 0 0 0
-( 1 0 0 -2368 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/bl/skies/greatest_sky_evaaar" 0 0 0
+( 0 1 0 800 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/bl/skies/greatest_sky_evaaar" 0 0 0
+( 1 0 0 -2432 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/bl/skies/greatest_sky_evaaar" 0 0 0
 ( 0 0 -1 512 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/bl/skies/greatest_sky_evaaar" 0 0 0
-( 0 -1 0 -800 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/bl/skies/greatest_sky_evaaar" 0 0 0
-( -1 0 0 -512 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/bl/skies/greatest_sky_evaaar" 0 0 0
+( 0 -1 0 -864 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/bl/skies/greatest_sky_evaaar" 0 0 0
+( -1 0 0 -1088 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/bl/skies/greatest_sky_evaaar" 0 0 0
 }
 }
 // primitive 436
 {
 brushDef3
 {
-( 0 0 1 -512 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/bl/skies/greatest_sky_evaaar" 0 0 0
-( 0 1 0 -128 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/bl/skies/greatest_sky_evaaar" 0 0 0
-( 1 0 0 512 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/bl/skies/greatest_sky_evaaar" 0 0 0
+( 0 0 1 -768 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/bl/skies/greatest_sky_evaaar" 0 0 0
+( 0 1 0 -192 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/bl/skies/greatest_sky_evaaar" 0 0 0
+( 1 0 0 1024 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/bl/skies/greatest_sky_evaaar" 0 0 0
 ( 0 0 -1 320 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/bl/skies/greatest_sky_evaaar" 0 0 0
 ( 0 -1 0 -800 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/bl/skies/greatest_sky_evaaar" 0 0 0
-( -1 0 0 -576 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/bl/skies/greatest_sky_evaaar" 0 0 0
+( -1 0 0 -1088 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/bl/skies/greatest_sky_evaaar" 0 0 0
 }
 }
 // primitive 437
@@ -5255,11 +5255,11 @@ brushDef3
 brushDef3
 {
 ( 0 0 1 -512 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/bl/skies/greatest_sky_evaaar" 0 0 0
-( 0 1 0 736 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/bl/skies/greatest_sky_evaaar" 0 0 0
+( 0 1 0 800 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/bl/skies/greatest_sky_evaaar" 0 0 0
 ( 1 0 0 -192 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/bl/skies/greatest_sky_evaaar" 0 0 0
 ( 0 0 -1 320 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/bl/skies/greatest_sky_evaaar" 0 0 0
-( 0 -1 0 -800 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/bl/skies/greatest_sky_evaaar" 0 0 0
-( -1 0 0 -512 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/bl/skies/greatest_sky_evaaar" 0 0 0
+( 0 -1 0 -864 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/bl/skies/greatest_sky_evaaar" 0 0 0
+( -1 0 0 -1088 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/bl/skies/greatest_sky_evaaar" 0 0 0
 }
 }
 // primitive 438
@@ -5303,7 +5303,7 @@ brushDef3
 brushDef3
 {
 ( 0 0 1 -512 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/common/visportal" 0 0 0
-( 0 1 0 -1664 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/common/visportal" 0 0 0
+( 0 1 0 -1728 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/common/visportal" 0 0 0
 ( 1 0 0 -1280 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/common/visportal" 0 0 0
 ( 0 0 -1 320 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/common/visportal" 0 0 0
 ( 0 -1 0 1408 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/common/visportal" 0 0 0
@@ -5315,7 +5315,7 @@ brushDef3
 brushDef3
 {
 ( 0 0 1 -512 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/common/visportal" 0 0 0
-( 0 1 0 -1792 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/common/visportal" 0 0 0
+( 0 1 0 -1856 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/common/visportal" 0 0 0
 ( 1 0 0 0 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/common/visportal" 0 0 0
 ( 0 0 -1 320 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/common/visportal" 0 0 0
 ( 0 -1 0 1408 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/common/visportal" 0 0 0
@@ -5326,7 +5326,7 @@ brushDef3
 {
 brushDef3
 {
-( 0 0 1 -320 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/common/visportal" 0 0 0
+( 0 0 1 -256 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/common/visportal" 0 0 0
 ( 0 1 0 -1408 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/common/visportal" 0 0 0
 ( 1 0 0 320 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/common/visportal" 0 0 0
 ( 0 0 -1 0 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/common/visportal" 0 0 0
@@ -5748,10 +5748,10 @@ brushDef3
 {
 ( 0 0 1 -768 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/common/visportal" 0 0 0
 ( 0 1 0 -192 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/common/visportal" 0 0 0
-( 1 0 0 -2368 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/common/visportal" 0 0 0
+( 1 0 0 -2432 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/common/visportal" 0 0 0
 ( 0 0 -1 512 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/common/visportal" 0 0 0
 ( 0 -1 0 128 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/common/visportal" 0 0 0
-( -1 0 0 -512 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/common/visportal" 0 0 0
+( -1 0 0 -576 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/common/visportal" 0 0 0
 }
 }
 // primitive 479
@@ -5760,10 +5760,10 @@ brushDef3
 {
 ( 0 0 1 -768 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/common/visportal" 0 0 0
 ( 0 1 0 -1280 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/common/visportal" 0 0 0
-( 1 0 0 -2368 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/common/visportal" 0 0 0
+( 1 0 0 -2432 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/common/visportal" 0 0 0
 ( 0 0 -1 512 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/common/visportal" 0 0 0
 ( 0 -1 0 1216 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/common/visportal" 0 0 0
-( -1 0 0 -512 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/common/visportal" 0 0 0
+( -1 0 0 -576 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/common/visportal" 0 0 0
 }
 }
 // primitive 480
@@ -5774,8 +5774,44 @@ brushDef3
 ( 0 1 0 -128 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/common/visportal" 0 0 0
 ( 1 0 0 -192 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/common/visportal" 0 0 0
 ( 0 0 -1 448 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/common/visportal" 0 0 0
-( 0 -1 0 -736 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/common/visportal" 0 0 0
-( -1 0 0 -512 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/common/visportal" 0 0 0
+( 0 -1 0 -800 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/common/visportal" 0 0 0
+( -1 0 0 -1024 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/common/visportal" 0 0 0
+}
+}
+// primitive 481
+{
+brushDef3
+{
+( 0 0 1 -512 ) ( ( 0.0625 0 0 ) ( 0 0.0625 0 ) ) "textures/dev/16x16_gray" 0 0 0
+( 0 1 0 -192 ) ( ( 0.0625 0 0 ) ( 0 0.0625 0 ) ) "textures/dev/16x16_gray" 0 0 0
+( 1 0 0 576 ) ( ( 0.0625 0 0 ) ( 0 0.0625 0 ) ) "textures/dev/16x16_gray" 0 0 0
+( 0 0 -1 256 ) ( ( 0.0625 0 0 ) ( 0 0.0625 0 ) ) "textures/dev/16x16_gray" 0 0 0
+( 0 -1 0 128 ) ( ( 0.0625 0 0 ) ( 0 0.0625 0 ) ) "textures/dev/16x16_gray" 0 0 0
+( -1 0 0 -1024 ) ( ( 0.0625 0 0 ) ( 0 0.0625 0 ) ) "textures/dev/16x16_gray" 0 0 0
+}
+}
+// primitive 482
+{
+brushDef3
+{
+( 0 0 1 -832 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/bl/skies/greatest_sky_evaaar" 0 0 0
+( 0 1 0 -256 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/bl/skies/greatest_sky_evaaar" 0 0 0
+( 1 0 0 576 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/bl/skies/greatest_sky_evaaar" 0 0 0
+( 0 0 -1 768 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/bl/skies/greatest_sky_evaaar" 0 0 0
+( 0 -1 0 -864 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/bl/skies/greatest_sky_evaaar" 0 0 0
+( -1 0 0 -1088 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/bl/skies/greatest_sky_evaaar" 0 0 0
+}
+}
+// primitive 483
+{
+brushDef3
+{
+( 0 0 1 -768 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/bl/skies/greatest_sky_evaaar" 0 0 0
+( 0 1 0 -256 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/bl/skies/greatest_sky_evaaar" 0 0 0
+( 1 0 0 640 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/bl/skies/greatest_sky_evaaar" 0 0 0
+( 0 0 -1 512 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/bl/skies/greatest_sky_evaaar" 0 0 0
+( 0 -1 0 192 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/bl/skies/greatest_sky_evaaar" 0 0 0
+( -1 0 0 -1088 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/bl/skies/greatest_sky_evaaar" 0 0 0
 }
 }
 }
@@ -6488,7 +6524,7 @@ brushDef3
 {
 "classname" "light"
 "name" "light_56"
-"_color" "0.212 0.302 0.478"
+"_color" "0.106 0.145 0.235"
 "light_center" "0 0 0"
 "light_radius" "1184 688 320"
 "nodiffuse" "0"
@@ -6497,7 +6533,7 @@ brushDef3
 "origin" "672 -16 -384"
 "parallel" "0"
 "shaderParm3" "0.15"
-"texture" "fogs/underwater"
+"texture" "fogs/basicfog"
 }
 // entity 57
 {
