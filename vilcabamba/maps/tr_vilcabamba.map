@@ -6607,12 +6607,12 @@ brushDef3
 "classname" "light"
 "name" "light_2"
 "_color" "0.604 0.600 0.588"
-"light_center" "-192 96 0"
-"light_radius" "320 320 320"
+"light_center" "-192 96 96"
+"light_radius" "220 260 260"
 "nodiffuse" "0"
 "noshadows" "0"
 "nospecular" "0"
-"origin" "1472 1088 224"
+"origin" "1472 1088 128"
 "parallel" "0"
 }
 // entity 3
@@ -6640,9 +6640,9 @@ brushDef3
 {
 "classname" "light"
 "name" "light_8"
-"_color" "0.251 0.251 0.251"
+"_color" "0.063 0.063 0.063"
 "light_center" "0 -320 0"
-"light_radius" "320 420 320"
+"light_radius" "320 320 320"
 "nodiffuse" "0"
 "noshadows" "0"
 "nospecular" "0"
@@ -6681,12 +6681,12 @@ brushDef3
 "classname" "light"
 "name" "light_11"
 "_color" "0.604 0.600 0.588"
-"light_center" "-32 -16 96"
-"light_radius" "264 256 200"
+"light_center" "-48 -32 96"
+"light_radius" "220 256 200"
 "nodiffuse" "0"
 "noshadows" "1"
 "nospecular" "0"
-"origin" "192 1136 152"
+"origin" "208 1136 152"
 "parallel" "0"
 }
 // entity 9
@@ -6699,7 +6699,7 @@ brushDef3
 "nodiffuse" "0"
 "noshadows" "1"
 "nospecular" "0"
-"origin" "-120 1056 -40"
+"origin" "-120 1056 -56"
 "parallel" "0"
 }
 // entity 10
@@ -6720,19 +6720,19 @@ brushDef3
 "classname" "light"
 "name" "light_14"
 "_color" "0.604 0.600 0.588"
-"light_center" "-48 56 -56"
-"light_radius" "232 148 256"
+"light_center" "-64 56 -56"
+"light_radius" "200 148 256"
 "nodiffuse" "0"
 "noshadows" "1"
 "nospecular" "0"
-"origin" "176 1048 -8"
+"origin" "192 1048 -8"
 "parallel" "0"
 }
 // entity 12
 {
 "classname" "light"
 "name" "light_15"
-"_color" "0.251 0.251 0.251"
+"_color" "0.063 0.063 0.063"
 "light_center" "-112 -48 96"
 "light_radius" "160 56 56"
 "nodiffuse" "0"
@@ -6746,12 +6746,12 @@ brushDef3
 "classname" "light"
 "name" "light_16"
 "_color" "0.373 0.373 0.373"
-"light_center" "176 0 -32"
-"light_radius" "416 96 176"
+"light_center" "416 0 -16"
+"light_radius" "320 96 176"
 "nodiffuse" "0"
 "noshadows" "0"
 "nospecular" "0"
-"origin" "-112 640 48"
+"origin" "-224 640 48"
 "parallel" "0"
 }
 // entity 14
@@ -6760,11 +6760,11 @@ brushDef3
 "name" "light_5"
 "_color" "1.000 1.000 1.000"
 "light_center" "0 208 192"
-"light_radius" "732 420 224"
+"light_radius" "680 380 224"
 "nodiffuse" "0"
 "noshadows" "1"
 "nospecular" "0"
-"origin" "704 576 96"
+"origin" "672 576 96"
 "parallel" "0"
 }
 // entity 15
@@ -6837,13 +6837,14 @@ brushDef3
 "classname" "light"
 "name" "light_22"
 "_color" "0.373 0.373 0.373"
-"light_center" "-480 -16 64"
-"light_radius" "796 128 264"
+"light_center" "-487.66 -16 111.548"
+"light_radius" "420 128 220"
 "nodiffuse" "0"
-"noshadows" "1"
+"noshadows" "0"
 "nospecular" "0"
-"origin" "1552 768 120"
+"origin" "1650.62 768 175.557"
 "parallel" "0"
+"rotation" "0.989659 0 0.143442 0 1 0 -0.143442 0 0.989659"
 }
 // entity 21
 {
@@ -6864,11 +6865,11 @@ brushDef3
 "name" "light_24"
 "_color" "0.871 0.867 0.855"
 "light_center" "-48 -16 -160"
-"light_radius" "800 400 280"
+"light_radius" "680 380 280"
 "nodiffuse" "0"
 "noshadows" "1"
 "nospecular" "0"
-"origin" "744 576 136"
+"origin" "680 576 136"
 "parallel" "0"
 }
 // entity 23
@@ -6889,7 +6890,7 @@ brushDef3
 "classname" "light"
 "name" "light_25"
 "_color" "0.373 0.373 0.373"
-"light_center" "80 -368 -144"
+"light_center" "80 -368 -128"
 "light_radius" "168 532 224"
 "nodiffuse" "0"
 "noshadows" "0"
@@ -6902,12 +6903,12 @@ brushDef3
 "classname" "light"
 "name" "light_26"
 "_color" "0.871 0.867 0.855"
-"light_center" "96 48 -112"
-"light_radius" "480 120 512"
+"light_center" "192 80 -192"
+"light_radius" "480 120 220"
 "nodiffuse" "0"
 "noshadows" "0"
 "nospecular" "0"
-"origin" "800 1464 128"
+"origin" "800 1464 144"
 "parallel" "0"
 }
 // entity 26
@@ -6927,19 +6928,24 @@ brushDef3
 {
 "classname" "light"
 "name" "light_28"
-"light_center" "-288 64 128"
-"light_radius" "572 360 512"
-"origin" "32 1568 32"
+"light_center" "-144 48 0"
+"light_radius" "220 260 320"
+"origin" "-128 1568 192"
+"_color" "1.000 1.000 1.000"
+"parallel" "0"
+"nospecular" "0"
+"nodiffuse" "0"
+"noshadows" "1"
 }
 // entity 28
 {
 "classname" "light"
 "name" "light_29"
-"_color" "0.604 0.600 0.588"
-"light_center" "96 192 -32"
+"_color" "0.604 0.600 0.584"
+"light_center" "160 256 -32"
 "light_radius" "160 400 260"
 "nodiffuse" "0"
-"noshadows" "1"
+"noshadows" "0"
 "nospecular" "0"
 "origin" "-416 1344 128"
 "parallel" "0"
@@ -6948,7 +6954,7 @@ brushDef3
 {
 "classname" "light"
 "name" "light_30"
-"_color" "0.251 0.251 0.251"
+"_color" "0.063 0.063 0.063"
 "light_center" "-160 -64 64"
 "light_radius" "192 128 256"
 "nodiffuse" "0"
@@ -6960,30 +6966,17 @@ brushDef3
 // entity 30
 {
 "classname" "light"
-"name" "light_31"
-"_color" "0.251 0.251 0.251"
-"light_center" "0 0 0"
-"light_radius" "96 128 256"
-"nodiffuse" "0"
-"noshadows" "1"
-"nospecular" "0"
-"origin" "160 1600 32"
-"parallel" "0"
-}
-// entity 31
-{
-"classname" "light"
 "name" "light_32"
 "_color" "0.871 0.867 0.855"
 "light_center" "0 32 176"
-"light_radius" "496 300 360"
+"light_radius" "420 260 360"
 "nodiffuse" "0"
 "noshadows" "1"
 "nospecular" "0"
-"origin" "656 32 160"
+"origin" "672 0 160"
 "parallel" "0"
 }
-// entity 32
+// entity 31
 {
 "classname" "light"
 "name" "light_33"
@@ -6996,7 +6989,7 @@ brushDef3
 "origin" "624 32 24"
 "parallel" "0"
 }
-// entity 33
+// entity 32
 {
 "classname" "light"
 "name" "light_34"
@@ -7009,20 +7002,20 @@ brushDef3
 "origin" "464 176 -16"
 "parallel" "0"
 }
-// entity 34
+// entity 33
 {
 "classname" "light"
 "name" "light_35"
 "_color" "1.000 1.000 1.000"
 "light_center" "0 0 0"
-"light_radius" "432 148 200"
+"light_radius" "320 148 200"
 "nodiffuse" "0"
 "noshadows" "1"
 "nospecular" "0"
 "origin" "640 80 480"
 "parallel" "0"
 }
-// entity 35
+// entity 34
 {
 "classname" "light"
 "name" "light_36"
@@ -7035,7 +7028,7 @@ brushDef3
 "origin" "912 240 -16"
 "parallel" "0"
 }
-// entity 36
+// entity 35
 {
 "classname" "light"
 "name" "light_37"
@@ -7048,7 +7041,7 @@ brushDef3
 "origin" "-560 -96 160"
 "parallel" "0"
 }
-// entity 37
+// entity 36
 {
 "classname" "light"
 "name" "light_38"
@@ -7061,7 +7054,7 @@ brushDef3
 "origin" "0 -160 160"
 "parallel" "0"
 }
-// entity 38
+// entity 37
 {
 "classname" "light"
 "name" "light_39"
@@ -7074,20 +7067,7 @@ brushDef3
 "origin" "80 -192 -256"
 "parallel" "0"
 }
-// entity 39
-{
-"classname" "light"
-"name" "light_40"
-"_color" "0.251 0.251 0.251"
-"light_center" "-64 -64 32"
-"light_radius" "148 148 128"
-"nodiffuse" "0"
-"noshadows" "1"
-"nospecular" "0"
-"origin" "-240 112 104"
-"parallel" "0"
-}
-// entity 40
+// entity 38
 {
 "classname" "light"
 "name" "light_41"
@@ -7100,7 +7080,7 @@ brushDef3
 "origin" "-384 192 104"
 "parallel" "0"
 }
-// entity 41
+// entity 39
 {
 "classname" "light"
 "name" "light_42"
@@ -7113,7 +7093,7 @@ brushDef3
 "origin" "-32 -224 288"
 "parallel" "0"
 }
-// entity 42
+// entity 40
 {
 "classname" "light"
 "name" "light_43"
@@ -7126,7 +7106,7 @@ brushDef3
 "origin" "160 80 104"
 "parallel" "0"
 }
-// entity 43
+// entity 41
 {
 "classname" "light"
 "name" "light_44"
@@ -7139,11 +7119,11 @@ brushDef3
 "origin" "384 -320 144"
 "parallel" "0"
 }
-// entity 44
+// entity 42
 {
 "classname" "light"
 "name" "light_45"
-"_color" "0.251 0.251 0.251"
+"_color" "0.063 0.063 0.063"
 "light_center" "0 0 0"
 "light_radius" "348 176 128"
 "nodiffuse" "0"
@@ -7152,11 +7132,11 @@ brushDef3
 "origin" "1600 272 160"
 "parallel" "0"
 }
-// entity 45
+// entity 43
 {
 "classname" "light"
 "name" "light_46"
-"_color" "0.251 0.251 0.251"
+"_color" "0.035 0.035 0.035"
 "light_center" "0 0 0"
 "light_radius" "256 192 228"
 "nodiffuse" "0"
@@ -7165,11 +7145,11 @@ brushDef3
 "origin" "1600 320 -72"
 "parallel" "0"
 }
-// entity 46
+// entity 44
 {
 "classname" "light"
 "name" "light_47"
-"_color" "0.251 0.251 0.251"
+"_color" "0.035 0.035 0.035"
 "light_center" "0 0 0"
 "light_radius" "132 360 64"
 "nodiffuse" "0"
@@ -7179,11 +7159,11 @@ brushDef3
 "parallel" "0"
 "rotation" "1 0 0 0 0.894585 0.446898 0 -0.446898 0.894585"
 }
-// entity 47
+// entity 45
 {
 "classname" "light"
 "name" "light_48"
-"_color" "0.604 0.600 0.588"
+"_color" "0.251 0.251 0.251"
 "light_center" "0 0 0"
 "light_radius" "132 420 64"
 "nodiffuse" "0"
@@ -7193,7 +7173,7 @@ brushDef3
 "parallel" "0"
 "rotation" "1 0 0 0 0.894585 0.446898 0 -0.446898 0.894585"
 }
-// entity 48
+// entity 46
 {
 "classname" "light"
 "name" "light_49"
@@ -7206,11 +7186,11 @@ brushDef3
 "origin" "624 544 -160"
 "parallel" "0"
 }
-// entity 49
+// entity 47
 {
 "classname" "light"
 "name" "light_50"
-"_color" "0.251 0.251 0.251"
+"_color" "0.063 0.063 0.063"
 "light_center" "0 0 0"
 "light_radius" "132 460 64"
 "nodiffuse" "0"
@@ -7220,24 +7200,24 @@ brushDef3
 "parallel" "0"
 "rotation" "1 0 0 0 0.894585 0.446898 0 -0.446898 0.894585"
 }
-// entity 50
+// entity 48
 {
 "classname" "light"
 "name" "light_52"
 "_color" "1.000 1.000 1.000"
 "light_center" "0 0 0"
-"light_radius" "460 360 256"
+"light_radius" "420 260 256"
 "nodiffuse" "0"
 "noshadows" "1"
 "nospecular" "0"
 "origin" "608 624 384"
 "parallel" "0"
 }
-// entity 51
+// entity 49
 {
 "classname" "light"
 "name" "light_53"
-"_color" "0.251 0.251 0.251"
+"_color" "0.063 0.063 0.063"
 "light_center" "0 0 0"
 "light_radius" "360 256 128"
 "nodiffuse" "0"
@@ -7247,11 +7227,11 @@ brushDef3
 "parallel" "0"
 "rotation" "0.845761 0 -0.533562 0 1 0 0.533562 0 0.845761"
 }
-// entity 52
+// entity 50
 {
 "classname" "light"
 "name" "light_4"
-"_color" "0.251 0.251 0.251"
+"_color" "0.035 0.035 0.035"
 "light_center" "0 0 0"
 "light_radius" "496 196 128"
 "nodiffuse" "0"
@@ -7260,7 +7240,7 @@ brushDef3
 "origin" "592 -256 -480"
 "parallel" "0"
 }
-// entity 53
+// entity 51
 {
 "classname" "light"
 "name" "light_54"
@@ -7274,7 +7254,7 @@ brushDef3
 "parallel" "0"
 "rotation" "-0.80036 -0.599519 0 0.58083 -0.775409 0.247748 -0.148529 0.198288 0.968825"
 }
-// entity 54
+// entity 52
 {
 "classname" "light"
 "name" "light_55"
@@ -7287,7 +7267,7 @@ brushDef3
 "origin" "-224 288 -80"
 "parallel" "0"
 }
-// entity 55
+// entity 53
 {
 "classname" "light"
 "name" "light_56"
@@ -7302,7 +7282,7 @@ brushDef3
 "shaderParm3" "0.15"
 "texture" "fogs/basicfog"
 }
-// entity 56
+// entity 54
 {
 "classname" "light"
 "name" "light_51"
@@ -7315,7 +7295,7 @@ brushDef3
 "origin" "1872 -272 504"
 "parallel" "0"
 }
-// entity 57
+// entity 55
 {
 "classname" "light"
 "name" "light_57"
@@ -7329,20 +7309,20 @@ brushDef3
 "parallel" "0"
 "rotation" "0.996195 -0.0871557 0 0.0871557 0.996195 0 0 0 1"
 }
-// entity 58
+// entity 56
 {
 "classname" "light"
 "name" "light_58"
-"_color" "0.251 0.251 0.251"
+"_color" "0.035 0.035 0.035"
 "light_center" "0 0 0"
-"light_radius" "100 100 132"
+"light_radius" "96 96 132"
 "nodiffuse" "0"
 "noshadows" "1"
 "nospecular" "0"
 "origin" "1992 768 208"
 "parallel" "0"
 }
-// entity 59
+// entity 57
 {
 "classname" "light"
 "name" "light_59"
@@ -7355,12 +7335,12 @@ brushDef3
 "origin" "1408 1464 168"
 "parallel" "0"
 }
-// entity 60
+// entity 58
 {
 "classname" "light"
 "name" "light_60"
-"_color" "0.188 0.188 0.188"
-"light_center" "0 0 0"
+"_color" "0.035 0.035 0.035"
+"light_center" "-240 32 0"
 "light_radius" "620 220 288"
 "nodiffuse" "0"
 "noshadows" "1"
@@ -7368,7 +7348,7 @@ brushDef3
 "origin" "1704 1496 160"
 "parallel" "0"
 }
-// entity 61
+// entity 59
 {
 "classname" "light"
 "name" "light_61"
@@ -7378,10 +7358,10 @@ brushDef3
 "nodiffuse" "0"
 "noshadows" "1"
 "nospecular" "0"
-"origin" "1152 1472 416"
+"origin" "1152 1552 416"
 "parallel" "0"
 }
-// entity 62
+// entity 60
 {
 "classname" "light"
 "name" "light_62"
@@ -7391,10 +7371,10 @@ brushDef3
 "nodiffuse" "0"
 "noshadows" "1"
 "nospecular" "0"
-"origin" "-128 1552 416"
+"origin" "-128 1616 416"
 "parallel" "0"
 }
-// entity 63
+// entity 61
 {
 "classname" "light"
 "name" "sun_central_room"
@@ -7408,7 +7388,7 @@ brushDef3
 "parallel" "1"
 "texture" "lights/sunlight_no_falloff"
 }
-// entity 64
+// entity 62
 {
 "classname" "light"
 "name" "light_17"
@@ -7421,7 +7401,7 @@ brushDef3
 "origin" "1032 1176 160"
 "parallel" "0"
 }
-// entity 65
+// entity 63
 {
 "classname" "light"
 "name" "light_63"
@@ -7434,7 +7414,7 @@ brushDef3
 "origin" "728 1184 88"
 "parallel" "0"
 }
-// entity 66
+// entity 64
 {
 "classname" "light"
 "name" "light_64"
@@ -7446,4 +7426,26 @@ brushDef3
 "nospecular" "0"
 "origin" "176 -368 464"
 "parallel" "0"
+}
+// entity 65
+{
+"classname" "light"
+"name" "light_65"
+"_color" "0.035 0.035 0.035"
+"light_center" "0 0 0"
+"light_radius" "132 360 64"
+"nodiffuse" "0"
+"noshadows" "1"
+"nospecular" "0"
+"origin" "1536 -128 -352"
+"parallel" "0"
+"rotation" "1 0 0 0 0.894585 0.446898 0 -0.446898 0.894585"
+}
+// entity 66
+{
+"classname" "light"
+"name" "light_31"
+"origin" "352 1552 128"
+"light_center" "-656 16 -16"
+"light_radius" "360 260 260"
 }
